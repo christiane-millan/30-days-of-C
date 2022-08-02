@@ -9,16 +9,16 @@
 
 ## Lenguaje de programación C
 
-## [Día 1](https://github.com/christiane-millan/30-days-of-C/tree/main/01_day_introduction)
+### [Día 1](https://github.com/christiane-millan/30-days-of-C/tree/main/01_day_introduction)
 
 * Introducción
 * Estructura de un progama
+* Tipos de datos
 
-## Día 2
+### [Día 2](https://github.com/christiane-millan/30-days-of-C/tree/main/02_day_operators)
 
-* [3. Tipos de datos]()
-* [4. Operadores]()
-* [5. Instruciones de entrada y salida]()
+* Operadores
+* Instruciones de entrada y salida
 
 ## Estructuras de control
 

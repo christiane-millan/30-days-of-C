@@ -1,6 +1,6 @@
 # Día 1
 
-## Introduccióm
+## Introducción
 
 ### Primer programa en C
 
