@@ -1,6 +1,6 @@
 /*
 * secuencias_escape.c
-* Mi primer programa en C .
+* Programa demostración con las secuencias de escape más comunes.
 * por Christian Millán
 * created 24/07/2022
 */

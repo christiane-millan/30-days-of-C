@@ -1,9 +1,21 @@
 # 30 days of C
 
+## Prerequisitos
+
+* Instalación de Visual Studio Code. [ver video](https://youtu.be/IV2ueI02Uzg)
+* Primeros pasos con VSCode [ver video](https://youtu.be/eurOEmEnwyg)
+* Extensiones en VSCode [ver video opcional](https://youtu.be/AUkU4hVtoXc)
+* Lenguaje C en VSCode [ver video](https://youtu.be/ZU53l80r4h4)
+
 ## Lenguaje de programación C
 
-* [1. Introducción]()
-* [2. Estructura de un progama]()
+## [Día 1](https://github.com/christiane-millan/30-days-of-C/tree/main/01_day_introduction)
+
+* 1. Introducción
+* 2. Estructura de un progama
+
+## Día 2
+
 * [3. Tipos de datos]()
 * [4. Operadores]()
 * [5. Instruciones de entrada y salida]()

@@ -88,7 +88,7 @@ Existen diferentes formas de agrega comentarios en C, como se muestra en el sigu
 Al momento de escribir comentarios es importante tomar en cuenta las siguientes recomendaciones:
 
 - Asumir que el lector conoce el lenguaje de programación
-- Escrbir sentencias completas con capitalización y puntuación apropiada
+- Escribir sentencias completas con capitalización y puntuación apropiada
 - Comentar usos poco comunes del lenguaje
 - Comentar de manera resilente a los cambios
 - Comentar en alto nivel
