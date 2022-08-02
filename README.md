@@ -11,8 +11,8 @@
 
 ## [Día 1](https://github.com/christiane-millan/30-days-of-C/tree/main/01_day_introduction)
 
-* 1. Introducción
-* 2. Estructura de un progama
+* Introducción
+* Estructura de un progama
 
 ## Día 2
 

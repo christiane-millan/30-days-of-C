@@ -1,17 +1,16 @@
+/*
+* Nombre del archivo: d01-04-datatype.c
+* Descripción: Tipos de datos usados en C.
+* Autor: Christian Millán
+* Fecha: 24/07/2022
+*/
+
 #include <stdio.h>
 #include <stdint.h>
 #include <stdbool.h>
 
- // prototipos de funciones
-void print_sizes( void );
-
 int main( void )
 {
-  print_sizes();
-}
-
-// función para imprimir el número de bytes para cada tipo de dato en C11 
-void print_sizes( void ) {
   printf( "Tamaño de los tipos de datos en C\n\n" );
   printf( "Tipo             Bytes\n\n" );
   printf( "char               %lu\n" , sizeof( char ) );

@@ -1,4 +1,7 @@
-# Día 2. Operadores
+# Día 2
+
+## Operadores
+
 
 2.1. Escribir las siguentes expresiones aritméticas como expresiones de computadora. La potencia puede utilizar la función `pow()`. Ejemplo: $(x + y)^2$ es `pow(x + y, 2)`.
 

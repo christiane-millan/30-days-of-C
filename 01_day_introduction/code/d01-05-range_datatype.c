@@ -1,17 +1,17 @@
+/*
+* Nombre del archivo: d01-05-range_datatype.c
+* Descripción: Rango de los tipos de datos usados en C.
+* Autor: Christian Millán
+* Fecha: 24/07/2022
+*/
+
 #include <stdio.h>
 #include <stdint.h>
 #include <stdbool.h>
 #include <limits.h>
 #include <float.h>
 
-// prototipos de función
-void print_ranges( void );
-
 int main( void )  {
-  print_ranges();
-}
-
-void print_ranges( void )  {
   printf( "Rangos para tipos de datos enteros en C\n\n" );
   printf( "int8_t %20d %20d\n" , SCHAR_MIN , SCHAR_MAX );
   printf( "int16_t %20d %20d\n" , SHRT_MIN , SHRT_MAX );
@@ -27,4 +27,6 @@ void print_ranges( void )  {
   printf( "double %14.7g %14.7g\n" , DBL_MIN , DBL_MAX );
   printf( "long double %14.7Lg %14.7Lg\n" , LDBL_MIN , LDBL_MAX );
   printf( "\n" );
+
+  return 0;
 }
