@@ -1,6 +1,6 @@
 # 30 days of C
 
-## Prerequisitos
+## Prerrequisitos
 
 * Instalación de Visual Studio Code. [ver video](https://youtu.be/IV2ueI02Uzg)
 * Primeros pasos con VSCode [ver video](https://youtu.be/eurOEmEnwyg)
