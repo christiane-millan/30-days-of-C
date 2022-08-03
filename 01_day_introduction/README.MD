@@ -127,6 +127,19 @@ Los elementos que definen la estructura de un programa en C, son:
 ### Secuencias de escape
 
 Las secuencias de escape son un tipo de puntuación en los programas que modifican el significado del símbolo que les precede.
+| Símbolo | Significado |
+| --- | --- |
+| \a | Alerta |
+| \b | Espacio |
+| \f | Form feed |
+| \n | Nueva línea |
+| \r | Retorno de carro |
+| \t | Tabulador horizontal |
+| \v | Tabular vertical |
+| \' | comilla simple |
+| \" | comilla doble |
+| \? | marca de pregunta |
+| \\ | diagonal invertida |
 
 ```c
 /*
