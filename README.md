@@ -7,7 +7,7 @@
 * Extensiones en VSCode [ver video opcional](https://youtu.be/AUkU4hVtoXc)
 * Lenguaje C en VSCode [ver video](https://youtu.be/ZU53l80r4h4)
 
-## Lenguaje de programación C
+## 1. Lenguaje de programación C
 
 ### [Día 1](https://github.com/christiane-millan/30-days-of-C/tree/main/01_day_introduction)
 
@@ -17,10 +17,10 @@
 
 ### [Día 2](https://github.com/christiane-millan/30-days-of-C/tree/main/02_day_operators)
 
-* Operadores
+* Operadores I
 * Instruciones de entrada y salida
 
-## Estructuras de control
+## 2. Estructuras de control
 
 * [4. Secuenciales]()
 * [5. Selectivas]()

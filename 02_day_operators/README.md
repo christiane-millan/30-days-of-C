@@ -106,143 +106,152 @@ c. `7 - 6 / 3 + 2 * 3 / 2 - 4 / 2`
 
 d. `7 * 10 - 5 % 3 * 4 + 9`
 
-## Ejercicios
+## Instrucciones de entrada y salida
 
-1.1. Salida en pantalla
+En C la entrada y salida de dos dispositivos estándar de entrada y salida, se denominan `stdin` y `stdout`, respectivamente. La salida normalmente es la pantalla de la computadora, la entrada se capta del teclado.
 
-Escribir un programa que imprima su nombre y dirección.
+En el archivo de cabecera `stdio.h` están definidas macros, constantes, variables y funciones que permiten intercambiar datos con el exterior. A continuación se muestran las más habituales y fáciles de utilizar.
 
-Ejemplo:
+### Salida
 
-```Bash
-Nombre: Homero J. Simpson
-Dirección: Av. Evergreen 742. Sprinfield, NT 48007. USA.
+La salida de los datos de un programa se pueden dirigir a varios dispositivos: pantalla, impresora, archivos. La función printf()  visualiza en pantalla datos del programa, transforma los datos, que están en una representación binaria a ASCII según los códigos transmitidos.
+
+```c
+suma = 0;
+suma = suma + 10;
+printf("%s %d","Suma = ",suma);
 ```
 
-1.2. Salida en texto largo en pantalla
+El número de argumentos en `printf()` es indefinido, por lo que se pueden transmitir cuantos datos se desee. Así, suponiendo que
 
-Escribir un programa que imprima una página de texto con no más de 40 caracteres por línea.
+```c
+i = 5;
+j = 12; 
+c = 'A'; 
+n = 40.791512;
 
-Ejemplo:
-
-```Bash
-Pass
+printf("%d %d %c %f",i,j,c,n);
 ```
 
-1.3. Letrero
+La forma general que tiene `printf()` es :
 
-Escribir un programa que imprima las letras UTM con asteriscos.
-
-Ejemplo:
-
-```Bash
-*       *   ***********   *           *
-*       *        *        * *       * * 
-*       *        *        *  *     *  *
-*       *        *        *   *   *   *
-*       *        *        *    * *    *
-*       *        *        *     *     *
-*       *        *        *           *  
-*       *        *        *           *
-  *****          *        *           *
+```c
+printf("control_string", data1, data2, data3, ... );
 ```
 
+`“control_string”` contiene los tipos de datos y la forma de mostrarlos; `data1`, `data2`, … son variables, constantes, datos de salida. printf() convierte, da forma de salida a los datos y los escribe en pantalla. La cadena de control contiene códigos de formato que se asocian a cada uno con los datos. Cada código comienza con el carácter %, a continuación puede especificarse el ancho mínimo del dato y termina con el carácter de conversión. Así, suponiendo que:
 
+```c
+i = 11; 
+j = 12; 
+c = 'A'; 
+n = 40.791512;
+printf( "%x %3d %c %.3f",i,j,c,n);
+```
 
-2.1. Escribir las siguentes expresiones aritméticas como expresiones de computadora. La potencia puede utilizar la función `pow()`. Ejemplo: $(x + y)^2$ es `pow(x + y, 2)`.
-
-![Expresiones](./expressions.png)
-
-2.2. Escribir un programa que lea un entero, lo multiplique por 2 y a continuación lo escriba de nuevo en la pantalla.
-
-2.3. Escribir un programa que intercambie los valores entre dos variables.
-
-2.4. Escribir un programa que lea dos enteros en las variables `x` y `y`, y a continuación obtenga los valores de:
-
-* La división x entre y
-* El residuo de la división de x entre y
-
-2.5. Escribir un programa que **solicite al usuario** la longitud y anchura de una habitación y acontinuación visualice su superficie con cuatro decimales (formto 5.4f).
-
-2.6. Escribir un programa que convierte un número dado en segundos en el equivalente a minutos y segundos.
-
-2.7. Escribir un programa que solicite dos números decimales y calcule su suma, visualizando la suma. Por ejemplo si los números son `57.45` y `425.55`, el program visualizará:
+Visualizará en pantalla:
 
 ```bash
-   57.45
-+ 425.55
-________
-  483.00
+B 12 A 40.792    
 ```
 
-2.8. Escribir un programa para calcular la longitud de la circunferencia y el área del círculo para un radio introducido por el teclado.
+El primer datos es un `11` en hexadecimal `%x`, el segundo es el número entero `12` en un ancho de `3`, le sigue el carácter `A` y, por último, el número real `n` redondeado de `3` cifras decimales (`%.3f`). Un signo menos a continuación de % indica que el dato se ajuste en forma predeterminada a la izquierda en vez del ajuste a la derecha.
 
-2.9. Escribir un programa que visualice valores como:
-
-```bash
-7.1
-7.12
-7.123
-7.1234
-7.12345
-7.123456
+```c
+printf("%15s","Hola utemita");
+printf("%-15s","Hola utemita");
 ```
 
-2.10 Escribir un programa que lea tres enteros y emite un mensaje que indique si están o no en orden númerico.
+Visualizará en pantalla:
 
-2.11. Escribir una sentencia lógica booleana que clasifique un entero `x` en una de las siguientes categorías.
-x < 0
-0 <= x <= 100
-x > 100
-
-2.12. Escribir un programa que introduzca un número de un mes (1 al 12) y visulice el número de días de ese mes.
-
-2.13. Escribir un programa que lea dos números y visualice el mayor, utilizar el operador ternario `?:`
-
-2.14. El domingo de Pascua es el primer domingo después de la primera luna llena porterior al equinoccio de primavera, y se determina mediante el siguiente cálculo sencillo:
-
-```bash
-A = año % 19
-B = año % 4
-C = año % 7
-D = (19 * A + 24) % 30
-E = (12 * B + 4 * C + 6 * D + 5) % 7
-N = (22 + D + E)
+```c
+   Hola utemita
+Hola utemita
 ```
 
-donde `N` indica el número de día del mes de marzo (si `N` es igual o menor que 31) o abril (si es mayor que 31). Construir un programa que tenga como entrada un año y determine la fecha del domingo de Pascua.
+los códigos de formato más utilizados y su significado:
 
-Nota: No utilizar el valor ternario para  seleccionar.
+C utiliza las secuencias de escape para visualizar caracteres que no están representados por símbolos tradicionales, como \a, \b, etc. Las secuencias de caracteres se muestran con anterioridad
 
-2.15. Determinar si el carácter asociado a un código introducido por el teclado corresponde a un carácter alfabético, dígito, de puntuación, especial o no imprimible.
+### Entrada
 
-## Problemas
+La entrada de datos a un programa puede tener diversas fuentes, teclado, archivos en disco, etc. La entrada que se considera por el momento es la entrada por teclado, asociado al archivo estándar de entrada `stdin`. La función más utilizada, por su versatilidad, para entrada formateada es `scanf()`.
 
-2.16. Escribir un programa que lea dos enteros de tres dígitos y calcule e imprima su producto, cociente y el resto cuando el primero se divide entre el segundo. La salida será justificada a la derecha.
+El archivo de cabecera stdio.h de la biblioteca de C proporciona la definición (el prototipo) de `scanf()`, así como de otras funciones de entrada o salida. La forma general que tiene la función `scanf()`:
 
-2.17. Una temperatura Celsius puede ser convertidad a una temperatura equivalente F de acuerdo con la siguinte fórmula: 
-
-Escribir un programa que lea la temperatura en Celsius y la escriba en F.
-
-2.18. Un sistema de ecuaciones lineas
-
-se puede resolver con las siguiente fórmulas:
-
-Diseñar un programa que lea dos conjuntos de coefiencientes (a, b y c; d, e y f) y visualice los valores de `x` y `y`.
-
-2.19. Escribir un programa que dibuje el rentángulo siguiente:
-
-```bash
-* * * * * * * * * * * * 
-*                     *
-*                     *
-*                     *
-*                     *
-* * * * * * * * * * * * 
+```c
+scanf(control_string, var1, var2, var3, …)
 ```
 
-2.20. Modificar el programa anterior (2.19), de modo que se lea una palabra de cinco letras y se impriman en el centro del rectángulo.
+`control_string` contiene los tipos de datos y se desea su anchura. `var1, var2, …` variables del tipo de los códigos de control.
 
-2.21. Escribir un programa que lea dos números y visualice el mayor.
+Los códigos de formato más comunes son los ya indicados en la salida. Se puede añadir, como sufijo del código, ciertos modificadores como `l` o `L`. El significado es “large”, aplicado a `float` (`%lf`) indica tipo `double`, aplicado a `int` (`%ld`) indica entero largo.
 
-2.22.  página 122 
+```c
+int n;
+double x;
+scanf("%d %lf", &n, &x); 
+```
+
+La entrada tiene que ser de la forma
+
+134 -1.4E-4
+
+En este caso la función `scanf()` devuelve n=134 x=-1.4E-4 (en doble precisión). Los argumentos `var1, var2 …` de la función `scanf()` se pasan por dirección o referencia pues va a ser modificados por la función para devolver datos. Por esta razón requieren del operador de dirección, el prefijo `&`. 
+
+## Salida de cadenas de caracteres
+
+Con la función `printf()` se puede dar salida a cualquier tipo de dato, asociando el código que le corresponde. En particular, para dar salida a una cadena de caracteres se utiliza el código `%s,` Así:
+
+```c
+char tree[] = "Sauce"
+printf("%s\n", tree);
+```
+
+Para la salida de cadenas, la biblioteca C proporciona la función específica `puts()`. Tienen un solo argumento, que es una cadena de caracteres. Escribe la cadena en la salida estándar (pantalla) y añade el fin de línea, de la siguiente forma:
+
+```c
+char tree[] = "Sauce"
+puts(tree);
+```
+
+## Entrada de cadenas de caracteres
+
+La entrada de cadena de caracteres se puede hacer con la función scanf() y el código %s. así, por ejemplo:
+
+```c
+char name[50];
+printf("Nombre del atleta: ");
+scanf("%s", name);
+printf("Nombre del atleta: %s", nombre);
+```
+
+Si la entrada por teclado es el nombre:
+
+```c
+Lebron Jame
+```
+
+La salida será:
+
+```c
+Nombre del atleta: Lebron
+```
+
+La razón es porque `scanf()` con el código `%s` capta palabras, el criterio utilizado para terminación es el espacio en blanco, o bien fin de línea. Otro detalle es que la variable `name` no es precedida por `%`. En C el identificador de un arreglo, tiene la dirección del array, por lo que en `scanf()` se pone simplemente `name`.
+
+La biblioteca de C tienen una función específica para captar cadenas de caracteres, la función `gets()`. Esta función capta del dispositivo estándar de entrada  una cadena de caracteres, termina con la captación con un retorno de carro. 
+
+```c
+char line[81];
+puts("Nombre y dirección:");
+gets(line);
+```
+
+La función gets() tiene un solo argumento, una variable de tipo cadena. Capta la cadena de entrada y la de vuelve en la variable pasada como argumento.
+
+```c
+gets(string_var);
+```
+
+Tanto `scanf()` como `gets()`, el programa inserta al final de la cadena el carácter que indica el final de la cadena, el carácter nulo `\0`. Siempre hay que definir las cadenas con un espacio demás de lo previsto como máxima longitud para el carácter fin de cadena.
