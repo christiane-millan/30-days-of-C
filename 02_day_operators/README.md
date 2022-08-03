@@ -1,6 +1,152 @@
 # Día 2
 
-## Operadores
+## Operadores I
+
+Los operadores fundamentales son:
+
+- Aritméticos, lógicos y relacionales.
+- Condicionales
+- Especiales
+
+### Expresiones
+
+Una expresión es una forma de calcular un valor. El conjunto de operaciones básicas de C  (aritméticas) para suma, resta, multiplicación y división, las cuales son las más comunes en la mayoría de los lenguajes de programación.
+
+Las **expresiones** son componentes de declaraciones complejas. Los operadores trabajan en una o mas expresiones, donde una expresión puede ser simple o compleja:
+
+- `5` es una expresión literal que evalúa el valor de `5`.
+- `5 + 8` es una expresión aritmética  de dos simples expresiones (constantes literales), los cuales, con el operador de adición, evalúa a `13`.
+- Una expresión más compleja, `5 + 8 - 10`, son en realidad dos operaciones aritméticas binarias donde `5` y `8` son evaluados primero para obtener un resultado intermedio, después el `10` es restado a este resultado intermedio.
+- 5; es una sentencia de expresión que evalúa a 5 y entonces se mueve a la siguiente sentencia. Una versión más util de esta sería `a_value = 5;` la cual es realmente dos expresiones: la evaluación del 5 y después la asignación del valor a la variable `a_value`.
+
+Un programa simple calc_length.c que aplica cada método de utilizar expresiones simples y complejas, es la siguiente:
+
+```c
+#include <stdio.h>
+
+int feet_to_inches( double feet ) 
+{
+  int inches = feet * 12;
+  return inches;
+}
+
+int main( void )
+{
+  int value   = 8; 
+  int length  = 0;
+
+  length = 5 + value + feet_to_inches( 3.5 );
+  printf( "Calculated length = %d\n" , length );
+
+  length = 5;
+  length = length + value;
+	length = length + feet_to_inches(3.5);
+	print("Calculated length = %d\n", length );
+}
+```
+
+Compilar el programa y ejecutar para validar
+
+```bash
+gcc calc_length.c -o calc_length
+./calc_length
+```
+
+### Operador de asignación
+
+El operador de asignación =, asigna el valor de la expresión derecha a la variable situada a la izquierda.
+
+```c
+code = 3467;
+fahrenheit = 123.456;
+x_axes = 525;
+y_axes = 725; 
+```
+Este operador es asociativo por la derecha, esto permite realizar asignaciones múltiples, de la siguiente forma:
+
+```c
+a = b = c = 45;
+// Equivale a 
+a = (b = (c = 45));
+```
+
+Esto permite inicializar varias variables con una sola sentencia.
+
+```c
+int a, b, c;
+a = b = c 5;
+```
+
+### Operadores aritméticos
+
+Las operaciones aritméticas básicas son:
+
+- Suma `+`
+- Resta `-`
+- Multiplicación `*`
+- División `/`
+- Modulo `%`
+
+### Precedencia de operadores
+
+| Operador | Operación | Nivel de procedencia |
+| --- | --- | --- |
+| () | (5 + 4) * 3 | 1 |
+| +, - | +25, -6.745 | 2 |
+| *, /, % | 5*5, 25/5 | 3 |
+| +, - | 2+3 | 4 |
+
+📌  Determinar el resultado de las siguientes expresiones:
+
+a. `6 + 2 * 3 -4 /2`
+
+b. `5 * ( 5 + (6-2) + 1`
+
+c. `7 - 6 / 3 + 2 * 3 / 2 - 4 / 2`
+
+d. `7 * 10 - 5 % 3 * 4 + 9`
+
+## Ejercicios
+
+1.1. Salida en pantalla
+
+Escribir un programa que imprima su nombre y dirección.
+
+Ejemplo:
+
+```Bash
+Nombre: Homero J. Simpson
+Dirección: Av. Evergreen 742. Sprinfield, NT 48007. USA.
+```
+
+1.2. Salida en texto largo en pantalla
+
+Escribir un programa que imprima una página de texto con no más de 40 caracteres por línea.
+
+Ejemplo:
+
+```Bash
+Pass
+```
+
+1.3. Letrero
+
+Escribir un programa que imprima las letras UTM con asteriscos.
+
+Ejemplo:
+
+```Bash
+*       *   ***********   *           *
+*       *        *        * *       * * 
+*       *        *        *  *     *  *
+*       *        *        *   *   *   *
+*       *        *        *    * *    *
+*       *        *        *     *     *
+*       *        *        *           *  
+*       *        *        *           *
+  *****          *        *           *
+```
+
 
 
 2.1. Escribir las siguentes expresiones aritméticas como expresiones de computadora. La potencia puede utilizar la función `pow()`. Ejemplo: $(x + y)^2$ es `pow(x + y, 2)`.
