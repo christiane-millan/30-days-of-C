@@ -335,9 +335,137 @@ Existen diferentes convenciones para nombrar variables. Dos métodos comunes par
 
 Una vez que se elige una convención de nombrado, es necesario apegarse a ella y no mezclar los estilos.
 
+- Tipos explícitos de variables
+  
+```c
+#include <stdbool.h>   /* So we can use: bool, true, false */
+
+int       a_number;
+long      a_big_number;
+long long a_really_big_number;
+float     inches;
+float     feed;
+float     yards;
+double    length, width, height;
+bool      is_it_raining;
+```
+
+- Tipos explicitos de variables con inicialización
+
+```c
+#include <stdbool.h>   /* So we can use: bool, true, false */
+
+int       a_number          = 10;
+long      a_big_number       = 3211145;
+long long a_really_big_number = 425632238789;
+float     inches           = 33.0;
+float     feet             = 2.5;
+float     yards            = 1780;
+double    length = 1 , width = 2 , height = 10;
+bool      is_it_raining      = false;
+
+int my_counter = 0;
+int a_different_counter = my_counter;
+```
+
+## Constantes
+
+En algún momento se requieren variables que no cambien su valor durante el tiempo de vida. Estas son las constantes y pueden ser definidas de distintas formas para diferentes usos.
+
+- Constantes literales
+  
+  Considerar las siguientes secuencias de caracteres como literales:
+
+```c
+65
+'A'
+8.0
+131072.0
+"Hello, world!"
+```
+
+Cada una de estas secuencias (excepto la cadena) tiene una representación interno de bytes de `0000 0000 0100 0001`. Sin embargo, por la puntuación que rodea a estas valores, el compilador puede inferir que tipo de dato tienen a partir de su contexto:
+
+```c
+65  ---> int
+'A' ---> unsigned char
+8.0 ---> float
+131072.0 ---> double
+```
+
+ Estos valores son literalmente escritos en el código fuente y sus tipos son determinados por la forma en la cual son escritos, o precisamente por cómo su puntuación especifica el contexto del tipo de dato.
+
+- Constantes definidas por valores
+
+```c
+#define INCHES_PER_FOOT 12
+#define FEET_PER_YARD 3
+
+feet = inches / INCHES_PER_FOOT;
+yards = feet / FEET_PER_YARD;
+```
+
+- Constantes de tipo explícito
+
+```c
+const float k_inches_per_foot = 12.0;
+const float k_feet_per_yard   =  3.0;    
+
+feet  = inches / k_inches_per_foot; 
+yards = feet / k_feet_per_yard;
+```
+
 ## Operadores I
 
+Los operadores fundamentales son:
+
+- Aritméticos, lógicos y relacionales.
+- Condicionales
+- Especiales
+
+### Expresiones
+
 Una expresión es una forma de calcular un valor. El conjunto de operaciones básicas de C  (aritméticas) para suma, resta, multiplicación y división, las cuales son las más comunes en la mayoría de los lenguajes de programación.
+
+Las **expresiones** son componentes de declaraciones complejas. Los operadores trabajan en una o mas expresiones, donde una expresión puede ser simple o compleja:
+
+- `5` es una expresión literal que evalúa el valor de `5`.
+- `5 + 8` es una expresión aritmética  de dos simples expresiones (constantes literales), los cuales, con el operador de adición, evalúa a `13`.
+- Una expresión más compleja, `5 + 8 - 10`, son en realidad dos operaciones aritméticas binarias donde `5` y `8` son evaluados primero para obtener un resultado intermedio, después el `10` es restado a este resultado intermedio.
+- 5; es una sentencia de expresión que evalúa a 5 y entonces se mueve a la siguiente sentencia. Una versión más util de esta sería `a_value = 5;` la cual es realmente dos expresiones: la evaluación del 5 y después la asignación del valor a la variable `a_value`.
+
+Un programa simple calc_length.c que aplica cada método de utilizar expresiones simples y complejas, es la siguiente:
+
+```c
+#include <stdio.h>
+
+int feet_to_inches( double feet ) 
+{
+  int inches = feet * 12;
+  return inches;
+}
+
+int main( void )
+{
+  int value   = 8; 
+  int length  = 0;
+
+  length = 5 + value + feet_to_inches( 3.5 );
+  printf( "Calculated length = %d\n" , length );
+
+  length = 5;
+  length = length + value;
+	length = length + feet_to_inches(3.5);
+	print("Calculated length = %d\n", length );
+}
+```
+
+Compilar el programa y ejecutar para validar
+
+```bash
+gcc calc_length.c -o calc_length
+./calc_length
+```
 
 ### Operador de asignación
 
@@ -348,6 +476,20 @@ code = 3467;
 fahrenheit = 123.456;
 x_axes = 525;
 y_axes = 725; 
+```
+Este operador es asociativo por la derecha, esto permite realizar asignaciones múltiples, de la siguiente forma:
+
+```c
+a = b = c = 45;
+// Equivale a 
+a = (b = (c = 45));
+```
+
+Esto permite inicializar varias variables con una sola sentencia.
+
+```c
+int a, b, c;
+a = b = c 5;
 ```
 
 ### Operadores aritméticos
@@ -368,6 +510,23 @@ Las operaciones aritméticas básicas son:
 | +, - | +25, -6.745 | 2 |
 | *, /, % | 5*5, 25/5 | 3 |
 | +, - | 2+3 | 4 |
+
+<aside>
+
+ 📌  
+ 
+ Determinar el resultado de las siguientes expresiones:
+
+a. `6 + 2 * 3 -4 /2`
+
+b. `5 * ( 5 + (6-2) + 1`
+
+c. `7-6/3+2*3/2-4/2`
+
+d. `7 * 10 - 5 % 3 * 4 + 9`
+
+
+</aside>
 
 ## Ejercicios
 
