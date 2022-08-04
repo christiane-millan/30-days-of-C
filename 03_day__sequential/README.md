@@ -1,5 +1,7 @@
 # Día 3
 
+* [Estructuras Secuenciales](https://github.com/christiane-millan/30-days-of-C/tree/main/03_day__sequential#estructuras-secuenciales)
+
 ## Estructuras de control
 
 Los programas hasta este punto se ejecutan de forma secuencial, es decir, cada sentencia se ejecuta después de otra. La primera sentencia de una función se ejecuta y continua hasta la última sentencia y solo se ejecutan por única vez. Es común que para resolver un problema se requiera definir cuales sentencias serán ejecutadas y cuales no. Las **estructuras de control** determinan la secuencia o flujo de ejecución de las sentencias. 
@@ -166,4 +168,22 @@ Diseñar un programa que lea dos conjuntos de coefiencientes (a, b y c; d, e y f
 
 2.21. Escribir un programa que lea dos números y visualice el mayor.
 
-2.22.  página 122 
+2.22. Escribir un programa para convertir una medida dada en pies a sus equivalentes en: a) yardas; b) pulgadas; c) centimetros; d) metros (1 pie = 12 pulgadas, 1 yarda = 3 pies, 1 pulgada = 2.54 cm, 1 m = 100 cm). Leer el número de pies e imprimir el número de yardas, pies, pulgadas, centímetros y metros.
+
+2.23. Teniendo como datos de entrada el radio y la altura de un cilindro se desea calcular: el área lateral y el volumen del cilindro.
+
+2.24. Calcular el área de un triángulo mediante la fórmula: $area = (p (p - a)(p - b)(p - c))^{1/2}$ donde p es el semiperímetro, $p = (a + b + c)/2$ y $a$, $b$ y $c$ son lostres lados del triángulo.
+
+2.25. Escribir un programa que calcule y escriba el producto, conciente entero y resto de dos números de tres cifras.
+
+2.26. Construir un programa para obtener la hipotenusa y los ángulos agudos de un triángulo rectángulo a partir de las longitudes de los catetos.
+
+2.27. Escribir un programa que desgloce cierta cantidad de segundos introducida por teclado en su equivalente en semanas, días, horas, minutos y segundos.
+
+2.28. Escribir un programa que exprese cierta cantidad de pesos mexicanos en billetes y monedas del curso legal.
+
+2.29. La fuerza de atracción entre dos masas, $m_1$ y $m_2$ separadas por una distancia $d$, está dada por la fórmula:
+$F = \frac{G * m_1 * m_2}{d^2}
+donde $G$ es la constante de gravitación universal
+$G = 6.673 \timex 10^{-8} cm^3/g \cdot s^2$
+Escribir un programa que lea la masade de dos cuerpos y la distancia entre ellos y a continuación ontenga la fuerza gravitacional entre ellos. La salida debe ser en dinas; un dina es igual a $g \cdot cm 7 s^2$.

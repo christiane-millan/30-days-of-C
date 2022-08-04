@@ -1,5 +1,8 @@
 # Día 2
 
+* [Operadores I](https://github.com/christiane-millan/30-days-of-C/tree/main/02_day_operators#operadores-i)
+* [Instrucciones de entrada y salida](https://github.com/christiane-millan/30-days-of-C/tree/main/02_day_operators#instrucciones-de-entrada-y-salida)
+
 ## Operadores I
 
 Los operadores fundamentales son:
