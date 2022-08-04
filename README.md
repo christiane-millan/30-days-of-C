@@ -18,7 +18,7 @@
 ### [Día 2](https://github.com/christiane-millan/30-days-of-C/tree/main/02_day_operators)
 
 * [Operadores I](https://github.com/christiane-millan/30-days-of-C/tree/main/02_day_operators#operadores-i)
-* [Instruciones de entrada y salida](https://github.com/christiane-millan/30-days-of-C/tree/main/02_day_operators#instrucciones-de-entrada-y-salida)
+* [Instrucciones de entrada y salida](https://github.com/christiane-millan/30-days-of-C/tree/main/02_day_operators#instrucciones-de-entrada-y-salida)
 
 ## 2. Estructuras de control
 

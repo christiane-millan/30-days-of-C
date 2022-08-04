@@ -1,3 +1,32 @@
+# Día 3
+
+## Estructuras de control
+
+Los programas hasta este punto se ejecutan de forma secuencial, es decir, cada sentencia se ejecuta después de otra. La primera sentencia de una función se ejecuta y continua hasta la última sentencia y solo se ejecutan por única vez. Es común que para resolver un problema se requiera definir cuales sentencias serán ejecutadas y cuales no. Las **estructuras de control** determinan la secuencia o flujo de ejecución de las sentencias. 
+
+Las estructuras de control se dividen en tres tipos:
+
+- Secuencia
+- Selección (decisión)
+- Repetición
+
+Como se menciona anteriormente las estructuras de control determinan el flujo de ejecución de un programa o función. Esto permite combinar instrucciones o sentencias en una unidad lógica con un punto de entrada y un punto de salida.
+
+## Estructuras secuenciales
+
+El flujo secuencial es un conjunto de secuencias encerradas entre llaves que se pueden utilizar para especificar un flujo de secuencia.
+
+```c
+{
+	sentencia_1 ;
+	sentencia_2;
+	.
+	.
+	.
+	sentencia_n;
+}
+```
+
 ## Ejercicios
 
 1.1. Salida en pantalla

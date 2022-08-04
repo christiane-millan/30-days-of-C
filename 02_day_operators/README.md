@@ -171,6 +171,19 @@ Hola utemita
 
 los códigos de formato más utilizados y su significado:
 
+| Código | Descripción |
+| --- | --- |
+| %d | El dato se convierte en entero decimal |
+| %o | El dato entero se convierte a octal |
+| %x | El dato entero se converte a hexadecimal |
+| %u | El dato entero se convierte a entero sin signo |
+| %c | El dato se considera de tipo carácter |
+| %e | El dato se considera de tipo float. Se convierte a notación científica, de la forma {-}n.mmmmmmE{-|+}dd. |
+| %f | El dato se considera del tipo float. Se convierte a notación decimal, con parte entera y los dígitos de precisión. |
+| %g | El dato se considera de tipo float. Se convierte según el código %e o %f dependiendo de cual sea la representación más corta |
+| %s | El dato ha de ser una cadena de caracteres |
+| %lf | El datos se considera de tipo double |
+
 C utiliza las secuencias de escape para visualizar caracteres que no están representados por símbolos tradicionales, como \a, \b, etc. Las secuencias de caracteres se muestran con anterioridad
 
 ### Entrada
