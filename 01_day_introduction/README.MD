@@ -1,5 +1,9 @@
 # Día 1
 
+* [Introducción](https://github.com/christiane-millan/30-days-of-C/tree/main/01_day_introduction#introducci%C3%B3n)
+* [Estructura de un progama](https://github.com/christiane-millan/30-days-of-C/tree/main/01_day_introduction#estructura-de-un-programa)
+* [Tipos de datos](https://github.com/christiane-millan/30-days-of-C/tree/main/01_day_introduction#tipos-de-datos)
+
 ## Introducción
 
 ### Primer programa en C
@@ -414,4 +418,3 @@ const float k_feet_per_yard   =  3.0;
 feet  = inches / k_inches_per_foot; 
 yards = feet / k_feet_per_yard;
 ```
-
