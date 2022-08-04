@@ -11,14 +11,14 @@
 
 ### [Día 1](https://github.com/christiane-millan/30-days-of-C/tree/main/01_day_introduction)
 
-* Introducción
-* Estructura de un progama
-* Tipos de datos
+* [Introducción](https://github.com/christiane-millan/30-days-of-C/tree/main/01_day_introduction#introducci%C3%B3n)
+* [Estructura de un progama](https://github.com/christiane-millan/30-days-of-C/tree/main/01_day_introduction#estructura-de-un-programa)
+* [Tipos de datos](https://github.com/christiane-millan/30-days-of-C/tree/main/01_day_introduction#tipos-de-datos)
 
 ### [Día 2](https://github.com/christiane-millan/30-days-of-C/tree/main/02_day_operators)
 
-* Operadores I
-* Instruciones de entrada y salida
+* [Operadores I](https://github.com/christiane-millan/30-days-of-C/tree/main/02_day_operators#operadores-i)
+* [Instruciones de entrada y salida](https://github.com/christiane-millan/30-days-of-C/tree/main/02_day_operators#instrucciones-de-entrada-y-salida)
 
 ## 2. Estructuras de control
 
