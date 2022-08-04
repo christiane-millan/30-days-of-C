@@ -22,13 +22,21 @@
 
 ## 2. Estructuras de control
 
-* [4. Secuenciales]()
-* [5. Selectivas]()
-* [5 .Iteraticas]()
+### [Día 3](https://github.com/christiane-millan/30-days-of-C/tree/main/day03_sequential)
+
+* Estructuras Secuenciales
+
+### [Día 4]()
+
+* Estructuras Selectivas
+
+### [Día 5]()
+
+* Estructuras Iterativas
 
 ## 3. Programación modular
 
-* [6 .Iteraticas]()
+* [6 .Iterativas]()
 * [7 .Iteraticas]()
 * [8 .Iteraticas]()
 
