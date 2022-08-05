@@ -22,12 +22,13 @@
 
 ## 2. Estructuras de control
 
-### [Día 3](https://github.com/christiane-millan/30-days-of-C/tree/main/day03_sequential)
+### [Día 3](https://github.com/christiane-millan/30-days-of-C/tree/main/03_day__sequential)
 
-* Estructuras Secuenciales
+* [Estructuras Secuenciales](https://github.com/christiane-millan/30-days-of-C/tree/main/03_day__sequential#estructuras-secuenciales)
 
 ### [Día 4]()
 
+* Operadores II
 * Estructuras Selectivas
 
 ### [Día 5]()

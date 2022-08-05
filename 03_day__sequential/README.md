@@ -185,5 +185,28 @@ Diseñar un programa que lea dos conjuntos de coefiencientes (a, b y c; d, e y f
 2.29. La fuerza de atracción entre dos masas, $m_1$ y $m_2$ separadas por una distancia $d$, está dada por la fórmula:
 $F = \frac{G * m_1 * m_2}{d^2}
 donde $G$ es la constante de gravitación universal
-$G = 6.673 \timex 10^{-8} cm^3/g \cdot s^2$
+$G = 6.673 \cdot 10^{-8} cm^3/g \cdot s^2$
 Escribir un programa que lea la masade de dos cuerpos y la distancia entre ellos y a continuación ontenga la fuerza gravitacional entre ellos. La salida debe ser en dinas; un dina es igual a $g \cdot cm 7 s^2$.
+
+2.30 La relación entre los lados $(a, b)$ de un triángulo y la hipotenusa $(h)$ viene dada por la fórmula:
+$a^2 + b^2 = h^2$
+
+Escribir un programa que lea la longitud de los lados y calcule la hipotenusa.
+
+2.31. Escribir un programa que lea la hora del un día en notación de 24 horas y la respuesta en notación de 12 horas. Por ejemplo: si la entrada es 13:45, la salida será:
+
+```bash
+1:45 PM
+```
+
+El programa pedirá al usuario que introduzca exactamente cinco caracteres. Así por ejemplo, las nueve en punto se introducen como:
+
+```bash
+09:00
+```
+
+2.31. Escribir un programa que lea el radio de un círculo y a continuación visualice; área del círculo, diámetro del circulo y longitud de la circunferencia del círculo.
+
+2.32. Escribir un programa que determine si un año es bisiesto. Un año es bisiesto si es múltiplo de 4 (por ejemplo, 1984). Sin embargo, los años múltiplos de 100 solo son bisiestos cuando a la vez son múltiples de 400 (por ejemplo, 1800 no es bisiesto, mientras que 2000 si lo es).
+
+* 2.33. Construir un programa que indique si un número introducido por teclado es positivo, igual a cero, o negativo.
