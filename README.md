@@ -26,10 +26,15 @@
 
 * [Estructuras Secuenciales](https://github.com/christiane-millan/30-days-of-C/tree/main/03_day__sequential#estructuras-secuenciales)
 
-### [Día 4]()
+### [Día 4](https://github.com/christiane-millan/30-days-of-C/tree/main/04_day_selective)
 
-* Operadores II
-* Estructuras Selectivas
+* [Operadores II](https://github.com/christiane-millan/30-days-of-C/tree/main/04_day_selective#operadores-ii-comparaci%C3%B3n-y-l%C3%B3gicos)
+* [Estructuras Selectivas](https://github.com/christiane-millan/30-days-of-C/tree/main/04_day_selective#estructuras-selectivas)
+  * [if](https://github.com/christiane-millan/30-days-of-C/tree/main/04_day_selective#la-sentencia-if)
+  * [if-else](https://github.com/christiane-millan/30-days-of-C/tree/main/04_day_selective#la-sentencia-if-else)
+  * [if-else anidados](https://github.com/christiane-millan/30-days-of-C/tree/main/04_day_selective#sentencias-if-else-anidadas)
+  * [switch](https://github.com/christiane-millan/30-days-of-C/tree/main/04_day_selective#sentencia-switch)
+  * [?:](https://github.com/christiane-millan/30-days-of-C/tree/main/04_day_selective#operador--)
 
 ### [Día 5]()
 
