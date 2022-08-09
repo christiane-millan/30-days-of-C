@@ -7,16 +7,18 @@
   * [if-else anidados](https://github.com/christiane-millan/30-days-of-C/tree/main/04_day_selective#sentencias-if-else-anidadas)
   * [switch](https://github.com/christiane-millan/30-days-of-C/tree/main/04_day_selective#sentencia-switch)
   * [?:](https://github.com/christiane-millan/30-days-of-C/tree/main/04_day_selective#operador--)
+  * [Ejercicios]()
+  * [Problemas]()
 
 ## Operadores II. Comparación y lógicos
 
-Las primeras versiones de C no tienen un tipo de dato explícito booleano (`true` y `false`). Para manejar valores booleanos, C utiliza el tipo int para este propósito, implícitamente convierte cualquier valor cero en el booleano falso y cualquier valor diferente de cero en verdadero. 
+Las primeras versiones de C no tienen un tipo de dato explícito booleano (`true` y `false`). Para manejar valores booleanos, C utiliza el tipo int para este propósito, implícitamente convierte cualquier valor cero en el booleano falso y cualquier valor diferente de cero en verdadero.
 
-Cuando se utiliza `#include <stdbool.h>`  los tipos true y false estan disponibles en el código fuente. 
+Cuando se utiliza `#include <stdbool.h>`  los tipos true y false estan disponibles en el código fuente.
 
 ### Operadores relacionales o de comparación
 
-Los operadores relacionales comparan el resultado de una expresión con el resultado de una segunda expresión. Tienen la misma forma que los operadores lógicos  binarios revisados previamente. 
+Los operadores relacionales comparan el resultado de una expresión con el resultado de una segunda expresión. Tienen la misma forma que los operadores lógicos binarios revisados previamente.
 
 Los operadores relaciones se usan en sentencias de selección (`if`) o de iteración (`while`, `for`) que sirven para comparar una condición. Mediante los operadores relacionales se realizan operaciones de igualdad, desigualdad y diferencias relativas.
 
@@ -190,10 +192,9 @@ La forma sintáctica de de las sentencias `if` simple es la siguiente:
 
 ```c
 if (expression)
-	statement1;
+    statement1;
 
 statement3; /* próxima sentencia a ser ejecutada*/
-
 ```
 
 Al ser evaluada la expresión, si el resultado es `true`, la sentencia `statment1` es ejecutada. Para después ser ejecutada la sentencia `statement3` independientemente del resultado obtenido en la expresión.
@@ -286,19 +287,19 @@ Resultado de la ejecución:
 
 int main() 
 {
-	float gasto, tasa;
-  printf("\n Gasto de corriente: ");
-  scanf("%f",&gasto);
-  
-	if (gasto < 1000.0)
-	  tasa = TARIFA1;
-  if (gasto >= 1000.0 && gasto <= 1850.0)
-	  tasa = TARIFA2;
-  if (gasto > 1850.0)
-		tasa = TARIFA3;
-  
-	printf("\nTasa que le corresponde a %.1f kwxh es de %f\n", gasto,tasa);
-	return 0; 
+    float gasto, tasa;
+    printf("\n Gasto de corriente: ");
+    scanf("%f",&gasto);
+
+    if (gasto < 1000.0)
+        tasa = TARIFA1;
+    if (gasto >= 1000.0 && gasto <= 1850.0)
+        tasa = TARIFA2;
+    if (gasto > 1850.0)
+        tasa = TARIFA3;
+
+    printf("\nTasa que le corresponde a %.1f kwxh es de %f\n", gasto,tasa);
+    return 0; 
 }
 ```
 
@@ -306,9 +307,9 @@ int main()
 
 ```c
 if (expression)
-	statement1
+    statement1
 else
-	statement2
+    statement2
 
 statement3 /* próxima sentencia a ser ejecutada*/
 
@@ -338,14 +339,14 @@ bool isLeapYear( int year )  {
      // Yes: return false.
      // No: "fall through" to next condition.
      //
- if( year < 1751 ) return false;
+    if( year < 1751 ) return false;
 
     // Is year an multiple of 4? (remainder will be 0)
     // Yes: return true.
     // No: "fall through" and return false.
     //
-  if( (year % 4) == 0 ) return true;
-	return false;
+    if( (year % 4) == 0 ) return true;
+    return false;
 }
 ```
 
@@ -355,12 +356,11 @@ La sentencia `if-else` tiene la siguiente sintaxis:
 
 ```c
 if (expression)
-	statement1
+    statement1
 else
-	statement2
+    statement2
 
 statement3
-	
 ```
 
 En este formato una sentencia que termina en `;` o un bloque de sentencias encerrado entre llaves. Cuando se ejecuta la sentencia `if-else` se evaluar la expresión `expression`. si `expression` es `true` se ejecuta `statement1` y en caso contrario se ejecuta `statement2`.
@@ -369,18 +369,18 @@ En este formato una sentencia que termina en `;` o un bloque de sentencias encer
 
 ```c
 if (salary > 100000)
-	final_salary = salary - taxes;
+    final_salary = salary - taxes;
 else
-	final_salary = salary
+    final_salary = salary
 ```
 
 Si (`if`) el salario es mayor que $10,000 se calcula el salario neto restándole los impuestos; en caso contrario (`else`) el salario neto es igual a salario bruto.
 
 ```c
 if (note >= 6)
-	puts("Aprobado");
+    puts("Aprobado");
 else
-	puts("Repprobado");
+    puts("Repprobado");
 ```
 
 Si la nota es mayor que 6 se escribe “Aprobado”; en caso contrario, la nota que sea menor que 6, se escribe “Reprobado”.
@@ -395,17 +395,17 @@ Si la nota es mayor que 6 se escribe “Aprobado”; en caso contrario, la nota 
 
 int main()
 {
-	int numerator, divider;
+    int numerator, divider;
 
-	printf( "Introduzca dos enteros: "); 
-	scanf("%d %d",&numerator,&divider);
-	
-	if (numerator % divider == 0)
+    printf( "Introduzca dos enteros: ");    
+    scanf("%d %d",&numerator,&divider);
+
+    if (numerator % divider == 0)
       printf("%d es divisible entre %d\n", numerator, divider);
-	else
+    else
       printf("%d no es divisible entre %d\n", numerator, divider);
   
-	return 0;
+    return 0;
 }
 ```
 
@@ -428,16 +428,16 @@ El número 36 no es divisible entre 5 ya que al realizar la división el residuo
 
 int main()
 {
-	int number_1, number_2;
-  printf("Introduzca dos enteros: ");
-  scanf("%d %d", &number_1, &number_2);
+    int number_1, number_2;
+    printf("Introduzca dos enteros: ");
+    scanf("%d %d", &number_1, &number_2);
     
-	if (number_1 > number_2)
-	  printf("%6d\n", number_1);
-	else
-    printf("%6d\n", number_2);
+    if (number_1 > number_2)
+        printf("%6d\n", number_1);
+    else
+        printf("%6d\n", number_2);
   
-	return 0;
+    return 0;
 }
 ```
 
@@ -464,18 +464,18 @@ int main()
 {
     float f,x;
     
-		printf("\n Elige un valor de x: ");
+    printf("\n Elige un valor de x: ");
     scanf("%f",&x);
     
-		/* selección del rango en que se encuentra x */
+    /* selección del rango en que se encuentra x */
     if (x <= 0.0)
-      f = pow(x,2) − x;
+        f = pow(x,2) − x;
     else
-      f = −pow(x,2) + 3*x;
+        f = −pow(x,2) + 3*x;
     
-		printf("f(%.1f) = %.3f",x,f);
-	  
-		return 0;
+    printf("f(%.1f) = %.3f",x,f);
+
+    return 0;
 }
 ```
 
@@ -496,18 +496,18 @@ La sentencia if es anidada cuando la sentencia de la rama verdadera o la rama fa
 
 ```c
 if (expression)
-	statement1
+    statement1
 else 
-	if (expression)
-		statement2
-		.
-		.
-		.
-	else
-		if (expression)
-			statementn
-		else
-			statementn+1
+    if (expression)
+        statement2
+        .
+        .
+        .
+    else
+        if (expression)
+            statementn
+        else
+            statementn+1
 ```
 
 <aside>
@@ -517,12 +517,12 @@ else
 
 ```c
 if (x > 0)
-	num_pos = num_pos + 1;
+    num_pos = num_pos + 1;
 else
-	if (x < 0)
-		num_neg = num_neg + 1;
-	else
-		num_zeros = num_zeros + 1;
+    if (x < 0)
+        num_neg = num_neg + 1;
+    else
+        num_zeros = num_zeros + 1;
 ```
 
 La sentencia `if` anidada del ejemplo anterior tiene tres alternativas. Se incrementar una de las tres variables (`num_pos`, `num_neg` y `num_zeros`) en 1, dependiendo de que: `x` sea mayor que cero, menor que cero o igual a cero, respectivamente.
@@ -535,33 +535,33 @@ Formato 1:
 
 ```c
 if (expression)
-	statement1
+    statement1
 else 
-	if (expression)
-		statement2
+    if (expression)
+        statement2
 else
-	if (expression)
-		statement3
+    if (expression)
+        statement3
 else
-	if (expression)
-		statement4
-	else
-		statement5
+    if (expression)
+        statement4
+else
+    statement5
 ```
 
 Formato 2:
 
 ```c
 if (expression)
-	statement1
+    statement1
 else if (expression)
-	statement2
+    statement2
 else if (expression)
-	statement3
+    statement3
 else if (expression)
-	statement4
+    statement4
 else
-	statement5
+    statement5
 
 ```
 
@@ -569,20 +569,19 @@ Ejemplos:
 
 ```c
 if (x > 0)
-	z = 2*log(x);
+    z = 2*log(x);
 else
-	if (y > 0)
+    if (y > 0)
      z = sqrt(x) + sqrt(y);
-
 ```
 
 ```c
 if (x > 0)
-	z = 2*log(x);
+    z = 2*log(x);
 else if (y > 0)
   z = sqrt(x) + sqrt(y);
 else
-	puts( "\n *** Imposible calcular z");
+    puts( "\n *** Imposible calcular z");
 ```
 
 Ejemplo:
@@ -592,26 +591,26 @@ Ejemplo:
 
 void main()
 {
-	float number;
+    float number;
 
-	printf( " Introduzca un número positivo o negativo: ");
-  scanf("%f",&number);
+    printf( " Introduzca un número positivo o negativo: ");
+    scanf("%f",&number);
   
-	/* comparar número con cero */
-  if (number > 0)
-  {
-	  printf("%.2f %s", number, "es mayor que cero\n");
-    puts( "Pruebe de nuevo introduciendo un número negativo");
-   }
-	 else if (number < 0)
-   {
-	   printf("%.2f %s", number, "es menor que cero\n");
-     puts( "pruebe de nuevo introduciendo un número positivo");
-   }
-	 else {
-	   printf("%.2f %s", number, "es igual a cero\n");
-     puts( " ¿por qué no introduce otro número? ");
-   }
+    /* comparar número con cero */
+    if (number > 0)
+    {
+        printf("%.2f %s", number, "es mayor que cero\n");
+        puts( "Pruebe de nuevo introduciendo un número negativo");
+    }
+    else if (number < 0)
+    {
+        printf("%.2f %s", number, "es menor que cero\n");
+        puts( "pruebe de nuevo introduciendo un número positivo");
+    }
+    else {
+       printf("%.2f %s", number, "es igual a cero\n");
+        puts( " ¿por qué no introduce otro número? ");
+    }
 }
 ```
 
@@ -621,33 +620,33 @@ Al programar se puede optar por implementar soluciones con una secuencia de sent
 
 ```c
 if (x > 0)
-	num_pos = num_pos + 1;
+    num_pos = num_pos + 1;
 if (x < 0)
-	num_neg = num_neg + 1;
+    num_neg = num_neg + 1;
 if (x == 0)
-	num_zeros = num_zeros + 1;
+    num_zeros = num_zeros + 1;
 ```
 
 En el ejemplo anterior la secuencia es lógicamente equivalente a la original, sin embargo, en muchas ocaciones no es legible  ni eficiente. La contrario de la sentencia `if` anidada, la secuencia no muestra claramente cuál es la secuencia a ejecutar para un valor determinado de `x`. Con respecto a la eficiencia, la sentencia `if` anidad es ejecutada más rápido cuando `x` es positivo a que la primera condición `(x > 0)` es verdadera, lo que significa que la siguiente parte es omitida. En contraste, se comprueban siempre las tres condiciones de las sentencias `if`. Si `x` es negativa, se comprueban dos condiciones de sentencias `if` anidadas frente a las tres condiciones de las secuencias de sentencias `if`. Una estructura típica `if-else` anidada permitida es:
 
 ```c
 if (numero > 0) {
-	...
+    ...
 }
 else
 {
-	if ( ...) 
-	{
-		... 
-	}
-	else 
-	{
-	  if ( ...)
+    if ( ...) 
     {
-			...
-		}
-	}
-		...
+        ... 
+    }
+    else 
+    {
+        if ( ...)
+        {
+            ...
+        }
+    }
+        ...
 }
 ```
 
@@ -661,20 +660,20 @@ else
    
 int main()   
 {      
-	int a, b, c, mayor;
+    int a, b, c, mayor;
   
-	printf("\n Introduzca tres enteros:");
-  scanf("%d %d %d",&a,&b,&c);
+    printf("\n Introduzca tres enteros:");
+    scanf("%d %d %d",&a,&b,&c);
       
-	if (a > b)
-	  if (a > c) mayor = a;
-    else mayor = c;
-	else
-    if (b > c) mayor = b;
-    else mayor = c;
-  printf("El mayor es %d \n",mayor);
+    if (a > b)
+        if (a > c) mayor = a;
+        else mayor = c;
+    else
+        if (b > c) mayor = b;
+        else mayor = c;
+    printf("El mayor es %d \n",mayor);
       
-	return 0;
+return 0;
 }
 ```
 
@@ -698,13 +697,13 @@ Sintaxis.
 ```c
 switch(selector)
 {
-	case tag1 : statement1;
-	case tag1 : statement1;
-	.
-	.
-	.
-	case tagn : statementn;
-	default: statementd; /*opcional */
+    case tag1 : statement1;
+    case tag1 : statement1;
+    .
+    .
+    .
+    case tagn : statementn;
+    default: statementd; /*opcional */
 }
 ```
 
@@ -715,16 +714,16 @@ Sintaxis con break
 ```c
 switch (selector)
 {
-	case label1 : statement1;
-								break;
-	case label2 : statement2;
-								break;
-	.
-	.
-	.
-	case labeln : statementn;
-								break;
-	default:      statementd; /* opcional */
+    case label1 :   statement1;
+                    break;
+    case label2 :   statement2;
+                    break;
+    .
+    .
+    .
+    case labeln :   statementn;
+                    break;
+    default:        statementd; /* opcional */
 }
 ```
 
@@ -742,17 +741,17 @@ Una sentencia break consta de la palabra reservada `break` seguida de `;`. Cuand
 ```c
 switch (opcion)
 {
-	case 0:
-	  puts("Cero!");
-	  break;
-	case 1:
-	  puts("Uno!");
-	  break;
-	case 2:
-	  puts("Dos!");
-	  break;
-	default:
-	  puts("Fuera de rango");
+    case 0:
+            puts("Cero!");
+            break;
+    case 1:
+            puts("Uno!");
+            break;
+    case 2:
+            puts("Dos!");
+            break;
+    default:
+            puts("Fuera de rango");
 }
 ```
 
@@ -764,16 +763,16 @@ switch (opcion)
 ```c
 switch (opcion)
 {         
-	case 0:           
-	case 1:         
-	case 2:             
-					puts("Menor de 3");
-			    break;           
-	case 3:
-				  puts("Igual a 3");
-			    break;
+    case 0:           
+    case 1:         
+    case 2:             
+            puts("Menor de 3");
+            break;           
+    case 3:
+            puts("Igual a 3");
+            break;
   default:
-          puts("Mayor que 3");
+            puts("Mayor que 3");
 }
 ```
 
@@ -784,31 +783,31 @@ switch (opcion)
 
 ```c
 if ((car == 'a') || (car == 'A'))
-	printf( "%c es una vocal\n",car);
+    printf( "%c es una vocal\n",car);
 else if ((car == 'e') || (car == 'E'))
-	printf( "%c es una vocal\n",car);
+    printf( "%c es una vocal\n",car);
 else if ((car == 'i') || (car == 'I'))
-	printf( "%c es una vocal\n",car);
+    printf( "%c es una vocal\n",car);
 else if ((car == 'o') || (car == 'O'))
-	printf( "%c es una vocal\n",car);
+    printf( "%c es una vocal\n",car);
 else if ((car == 'u') || (car == 'U'))
-	printf( "%c es una vocal\n",car);
+    printf( "%c es una vocal\n",car);
 else
-	printf( "%c no es una vocal\n",car);
+    printf( "%c no es una vocal\n",car);
 ```
 
 ```c
 switch (car)
 {
-	case 'a': case 'A':
-	case 'e': case 'E':
-  case 'i': case 'I':
-  case 'o': case 'O':
-  case 'u': case 'U':
-								      printf( "%c es una vocal\n",car);
-								      break;
+    case 'a': case 'A':
+    case 'e': case 'E':
+    case 'i': case 'I':
+    case 'o': case 'O':
+    case 'u': case 'U':
+                        printf( "%c es una vocal\n",car);
+                        break;
   default:
-								      printf( "%c no es una vocal\n",car);
+                        printf( "%c no es una vocal\n",car);
  }
 ```
 
@@ -823,24 +822,24 @@ switch (car)
 #include <stdio.h>
 
 int main() {  
-	char nota;
-  printf("Introduzca calificación (A-F) y pulse Intro:");
-  scanf("%c",&nota);
+    char nota;
+    printf("Introduzca calificación (A-F) y pulse Intro:");
+    scanf("%c",&nota);
     
-	switch (nota)
-  {
-	  case 'A': puts("Excelente. Examen superado");
-              break;
-    case 'B': puts("Notable. Suficiencia");
-              break;
-    case 'C': puts("Aprobado");
-              break;
-    case 'D':
-    case 'F': puts("Reprobado");
-              break;
-		default:
-              puts("No es posible esta nota");
-	}
+    switch (nota)
+    {
+        case 'A':   puts("Excelente. Examen superado");
+                    break;
+        case 'B':   puts("Notable. Suficiencia");
+                    break;
+        case 'C':   puts("Aprobado");
+                    break;
+        case 'D':
+        case 'F':   puts("Reprobado");
+                    break;
+        default:
+                    puts("No es posible esta nota");
+    }
     puts("Final de programa");
     return 0;
 }
@@ -848,7 +847,7 @@ int main() {
 
 Cuando se ejecuta la sentencia switch en el ejemplo 2.2.13 se evalúa `nota`; si el valor de la expresión es igual al valor de una etiqueta, entonces se transfiere el flujo de control a las sentencias asociadas con la etiqueta correspondiente. Si ninguna etiqueta coincide con el valor de la nota se ejecuta la sentencia `default` y las sentencias que vienen después de ella. Normalmente la última sentencia de las sentencias que vienen después de un `case`  es una sentencia `break`. Esta sentencia hace que el flujo de control del programa salta a la siguiente sentencia del `switch`. Si no existiera `break`, se ejecutarían también las sentencias restantes de la sentencia `switch`.
 
-Ejecución 
+Ejecución
 
 ```c
 Introduzca calificación (A-F) y pulse Intro: A 
@@ -884,20 +883,20 @@ printf("Introduzca tipo de vehiculo:");
 scanf("%d",&tipo_vehiculo);
 switch(tipo_vehiculo)
 {
-		case 1:
-						printf("turismo\n");
-						peaje = 500;
-						break; 
-		case 2:
-		        printf("autobus\n");
-		        peaje = 3000;
-		        break;
-	  case 3:
-		        printf("motocicleta\n");
-		        peaje = 300;
-		        break;
-		default:
-		        printf("vehículo no autorizado\n");
+    case 1:
+            printf("turismo\n");
+            peaje = 500;
+            break; 
+    case 2:
+            printf("autobus\n");
+            peaje = 3000;
+            break;
+    case 3:
+            printf("motocicleta\n");
+            peaje = 300;
+            break;
+    default:
+           printf("vehículo no autorizado\n");
 }
 ```
 
@@ -909,13 +908,14 @@ Se puede utilizar varias expresiones case en una alternativa dada dentro de la s
 switch(c) {
       case '0':case '1': case '2': case '3': case '4':
       case '5':case '6': case '7': case '8': case '9':
-																											 num_digitos++; 
-																											 break;
-			case ' ': case '\t': case '\n':
-																								       num_blancos++; 
-																								       break;
-      default:
-																								       num_distintos++;
+
+                                                        num_digitos++; 
+                                                        break;
+    case ' ': case '\t': case '\n':
+                                                        num_blancos++; 
+                                                        break;
+    default:
+                                                        num_distintos++;
    }
 ```
 
@@ -978,3 +978,89 @@ else
            n1 > n2 ? printf("%d > %d",n1,n2): printf("%d <= %d",n1,n2);
 }
 ```
+
+## Ejercicios
+
+4.1. Escribir un programa que lea tres enteros y emita un mensaje que indique si están o no en orden numérico.
+
+4.2. Escribi run programa (que utilice la sentencia if-else) para clasificar un entero `x`en una de las siguientes categorías y escriba el mensaje adecuado: bajo (menor a cero), medio (entre cero y cien), alto (mayor a cien).
+
+4.3. Introducir un programa que introduzca el número de un mes (1 al 12) y vicialice el número de días de ese mes.
+
+4.4. Escribir un programa que determine el mayor de tres números.
+
+4.5. El domingo de Pascua es el primer domingo después de la primera luna llena porterior al equinoccio de primavera, y se determina mediante el siguiente cálculo sencillo:
+
+```bash
+A = año % 19
+B = año % 4
+C = año % 7
+D = (19 * A + 24) % 30
+E = (12 * B + 4 * C + 6 * D + 5) % 7
+N = (22 + D + E)
+```
+
+donde `N` indica el número de día del mes de marzo (si `N` es igual o menor que 31) o abril (si es mayor que 31). Construir un programa que tenga como entrada un año y determine la fecha del domingo de Pascua.
+
+4.6. Codificar un programa que escriba la calificación conrrespondiente a una nota, de acuerdo al siguiente criterio:
+
+4.6. Codificar un programa que escriba la calificación correspondiente a una nota, de cuerdo con el siguiente criterio
+
+0 a < 6.0 Reprobado
+6 a 7.5 Aprobado
+7.5 a 8.5 Notable
+8.5 a < 10 Sobresaliente
+10 Matrícula de honor
+
+4.7. Determinar si el carácter asociado a un código introducido por el teclado corresponde a un carácter alfabético, dígito, de puntuación, especial o no imprimible.
+
+## Problemas
+
+4.1. Cuatro enteros entre 0 y 100 representan las puntiaciones de un estudiante en un curso de informática. Escribir un programa para encontrar la media de estas puntuaciones y visualizar una tabla de notas de acuerdo con el siguiente cuadro:
+
+| Media | Puntuación |
+|-------|------------|
+| 90-100|     A      |
+| 80-89 |     B      |
+| 70-79 |     B      |
+| 60-69 |     D      |
+|  0-59 |     E      |
+
+4.2. Escribir un programa que la la hora de un día en notación de 24 horas y la respuesta en notación de 12 horas. Por ejemplo, si la entrada es 13:45, la salida será: 1:45 PM
+
+4.3. Escribir un programa que acepte fechas escritas de modo usual y las visualice como tres números. Por ejemplo, la entrada:
+
+`14 de febrero 2022`
+
+producirá la salida
+
+`15`    `2`     `2022`
+
+4.4. Escribir un programa que acepte un número de tres dígitos escrito en palabras y acontinuación los visualice com un valor de tipo entero. La entrada se termina con un punto. Por ejemplo, la entrada:
+
+`doscientos veinticinco`
+
+producira la salida:
+
+225
+
+4.5. Escribir un programa que acepte un año escrito en cifras arábigas y visualice el año escrito en números romanos, dentro del rango 1000 a 2000.
+
+Nota: Recuerde que V = 5, X = 10, L = 50, C = 100, D = 500 y M = 1000
+
+4.6. Se desea redondear un entero positivo N a la centena más próxima y visualar la salida. Para ello la entrada de datos debe ser los cuatro dígitos A, B, C, D del entero N. Por ejemplo, si A es 2, B es 3, C es 6 y D es 2, entonces N será 2362 y el resultado redondeado será 2400. Si N es 2342, el resultado será 2300, y si N = 2962, entonces el número será 3000. Diseñar el programa correspondiente.
+
+4.7. Se quiere calcular la edad de un individuo; para ello se va a tener la entrada de dos fechas en el formato día (1 a 31), mes (1 a 12) y año (entero de cuatro dígitos), correspondiente a la fecha de nacimiento y la fecha actual, respectivamente. Escribir un programa que calcule y visualice la edad del individuo. Si la fecha es de un bebé (menos de un año de edad), la edad se debe dar en meses y días; en caso contrario, la edad se calcula en años.
+
+4.8. Escribir un programa que determine si un año es bisiesto. Un año es bisiesto si es mutiplo de 4 (por ejemplo, 2008). Sin embargo, los años múltiplos de 100 solo son bisiestos cuando a la vez son múltiplos de 400 (por ejemplo, 1800 no es bisiesto, mientras 2000 si lo es).
+
+4.9. Escribir un programa que calcule el número de diás de un mes dado los valores numéricos del mes y el año.
+
+4.10. Se desea calcular el salario neto semanal de los trabajadores de una empresa de acuerdo con las siguientes normas:
+
+- Horas semanales trabajadas < 38 a una tasa dada.
+- Horas extra (38 a más) una tasa 50% superior a la ordinaria.
+- Impuestos 0% si el salario bruto es menor o igual a 800 dólares.
+- Impuestos 10% si el salario bruto es mayor de 800 dólares.
+
+4.11. Escribir y ejecutar un programa que simule un calculador simple. Lee dos enteros y un carácter. Si el carácter es un +, se  imprime la suma; si es un -, se imprime la diferencia; si es un *, se imprime el producto, si es un /, se imprime el cociente; y si es un % se imprime el resto.
