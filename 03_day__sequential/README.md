@@ -111,45 +111,24 @@ ________
 7.123456
 ```
 
-2.10 Escribir un programa que lea tres enteros y emite un mensaje que indique si están o no en orden númerico.
-
-2.11. Escribir una sentencia lógica booleana que clasifique un entero `x` en una de las siguientes categorías.
-x < 0
-0 <= x <= 100
-x > 100
-
-2.12. Escribir un programa que introduzca un número de un mes (1 al 12) y visulice el número de días de ese mes.
-
-2.13. Escribir un programa que lea dos números y visualice el mayor, utilizar el operador ternario `?:`
-
-2.14. El domingo de Pascua es el primer domingo después de la primera luna llena porterior al equinoccio de primavera, y se determina mediante el siguiente cálculo sencillo:
-
-```bash
-A = año % 19
-B = año % 4
-C = año % 7
-D = (19 * A + 24) % 30
-E = (12 * B + 4 * C + 6 * D + 5) % 7
-N = (22 + D + E)
-```
-
-donde `N` indica el número de día del mes de marzo (si `N` es igual o menor que 31) o abril (si es mayor que 31). Construir un programa que tenga como entrada un año y determine la fecha del domingo de Pascua.
-
-Nota: No utilizar el valor ternario para  seleccionar.
-
-2.15. Determinar si el carácter asociado a un código introducido por el teclado corresponde a un carácter alfabético, dígito, de puntuación, especial o no imprimible.
-
 ## Problemas
 
 2.16. Escribir un programa que lea dos enteros de tres dígitos y calcule e imprima su producto, cociente y el resto cuando el primero se divide entre el segundo. La salida será justificada a la derecha.
 
-2.17. Una temperatura Celsius puede ser convertidad a una temperatura equivalente F de acuerdo con la siguinte fórmula: 
+2.17. Una temperatura Celsius puede ser convertidad a una temperatura equivalente F de acuerdo con la siguinte fórmula: $F = \frac{9}{5}C+ 32$
 
 Escribir un programa que lea la temperatura en Celsius y la escriba en F.
 
-2.18. Un sistema de ecuaciones lineas
+2.18. Un sistema de ecuaciones lineas 
+
+$ax + bx = x$
+$dx + ey = f$
 
 se puede resolver con las siguiente fórmulas:
+
+$ x = frac{ce -bf}{ae - bd}$
+
+$ y = frac{af - cd}{ae - bd}$
 
 Diseñar un programa que lea dos conjuntos de coefiencientes (a, b y c; d, e y f) y visualice los valores de `x` y `y`.
 
@@ -207,6 +186,6 @@ El programa pedirá al usuario que introduzca exactamente cinco caracteres. Así
 
 2.31. Escribir un programa que lea el radio de un círculo y a continuación visualice; área del círculo, diámetro del circulo y longitud de la circunferencia del círculo.
 
-2.32. Escribir un programa que determine si un año es bisiesto. Un año es bisiesto si es múltiplo de 4 (por ejemplo, 1984). Sin embargo, los años múltiplos de 100 solo son bisiestos cuando a la vez son múltiples de 400 (por ejemplo, 1800 no es bisiesto, mientras que 2000 si lo es).
+* 2.32. Escribir un programa que determine si un año es bisiesto. Un año es bisiesto si es múltiplo de 4 (por ejemplo, 1984). Sin embargo, los años múltiplos de 100 solo son bisiestos cuando a la vez son múltiples de 400 (por ejemplo, 1800 no es bisiesto, mientras que 2000 si lo es).
 
 * 2.33. Construir un programa que indique si un número introducido por teclado es positivo, igual a cero, o negativo.
