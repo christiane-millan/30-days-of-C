@@ -985,7 +985,7 @@ else
 
 4.2. Escribir un programa (que utilice la sentencia if-else) para clasificar un entero `x`en una de las siguientes categorías y escriba el mensaje adecuado: bajo (menor a cero), medio (entre cero y cien), alto (mayor a cien).
 
-4.3. Introducir un programa que introduzca el número de un mes (1 al 12) y visualice el número de días de ese mes.
+4.3. Introducir un programa que introduzca el número de un mes (1 al 12) y visualice el número de días tiene ese mes.
 
 4.4. Escribir un programa que determine el mayor de tres números.
 
