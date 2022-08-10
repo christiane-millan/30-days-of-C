@@ -989,7 +989,7 @@ else
 
 4.4. Escribir un programa que determine el mayor de tres números.
 
-4.5. El domingo de Pascua es el primer domingo después de la primera luna llena porterior al equinoccio de primavera, y se determina mediante el siguiente cálculo sencillo:
+4.5. El domingo de Pascua es el primer domingo después de la primera luna llena posterior al equinoccio de primavera, y se determina mediante el siguiente cálculo sencillo:
 
 ```bash
 A = año % 19
