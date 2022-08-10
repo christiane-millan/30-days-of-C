@@ -186,6 +186,6 @@ El programa pedirá al usuario que introduzca exactamente cinco caracteres. Así
 
 2.31. Escribir un programa que lea el radio de un círculo y a continuación visualice; área del círculo, diámetro del circulo y longitud de la circunferencia del círculo.
 
-* 2.32. Escribir un programa que determine si un año es bisiesto. Un año es bisiesto si es múltiplo de 4 (por ejemplo, 1984). Sin embargo, los años múltiplos de 100 solo son bisiestos cuando a la vez son múltiples de 400 (por ejemplo, 1800 no es bisiesto, mientras que 2000 si lo es).
+2.32. * Escribir un programa que determine si un año es bisiesto. Un año es bisiesto si es múltiplo de 4 (por ejemplo, 1984). Sin embargo, los años múltiplos de 100 solo son bisiestos cuando a la vez son múltiples de 400 (por ejemplo, 1800 no es bisiesto, mientras que 2000 si lo es).
 
-* 2.33. Construir un programa que indique si un número introducido por teclado es positivo, igual a cero, o negativo.
+2.33. * Construir un programa que indique si un número introducido por teclado es positivo, igual a cero, o negativo.

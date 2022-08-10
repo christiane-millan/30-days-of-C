@@ -983,9 +983,9 @@ else
 
 4.1. Escribir un programa que lea tres enteros y emita un mensaje que indique si están o no en orden numérico.
 
-4.2. Escribi run programa (que utilice la sentencia if-else) para clasificar un entero `x`en una de las siguientes categorías y escriba el mensaje adecuado: bajo (menor a cero), medio (entre cero y cien), alto (mayor a cien).
+4.2. Escribir un programa (que utilice la sentencia if-else) para clasificar un entero `x`en una de las siguientes categorías y escriba el mensaje adecuado: bajo (menor a cero), medio (entre cero y cien), alto (mayor a cien).
 
-4.3. Introducir un programa que introduzca el número de un mes (1 al 12) y vicialice el número de días de ese mes.
+4.3. Introducir un programa que introduzca el número de un mes (1 al 12) y visualice el número de días de ese mes.
 
 4.4. Escribir un programa que determine el mayor de tres números.
 
@@ -1002,15 +1002,13 @@ N = (22 + D + E)
 
 donde `N` indica el número de día del mes de marzo (si `N` es igual o menor que 31) o abril (si es mayor que 31). Construir un programa que tenga como entrada un año y determine la fecha del domingo de Pascua.
 
-4.6. Codificar un programa que escriba la calificación conrrespondiente a una nota, de acuerdo al siguiente criterio:
+4.6. Codificar un programa que escriba la calificación correspondiente a una nota, de acuerdo al siguiente criterio:
 
-4.6. Codificar un programa que escriba la calificación correspondiente a una nota, de cuerdo con el siguiente criterio
-
-0 a < 6.0 Reprobado
-6 a 7.5 Aprobado
-7.5 a 8.5 Notable
-8.5 a < 10 Sobresaliente
-10 Matrícula de honor
+* 0 a < 6.0 Reprobado
+* 6 a 7.5 Aprobado
+* 7.5 a 8.5 Notable
+* 8.5 a < 10 Sobresaliente
+* 10 Matrícula de honor
 
 4.7. Determinar si el carácter asociado a un código introducido por el teclado corresponde a un carácter alfabético, dígito, de puntuación, especial o no imprimible.
 
@@ -1058,9 +1056,9 @@ Nota: Recuerde que V = 5, X = 10, L = 50, C = 100, D = 500 y M = 1000
 
 4.10. Se desea calcular el salario neto semanal de los trabajadores de una empresa de acuerdo con las siguientes normas:
 
-- Horas semanales trabajadas < 38 a una tasa dada.
-- Horas extra (38 a más) una tasa 50% superior a la ordinaria.
-- Impuestos 0% si el salario bruto es menor o igual a 800 dólares.
-- Impuestos 10% si el salario bruto es mayor de 800 dólares.
+* Horas semanales trabajadas < 38 a una tasa dada.
+* Horas extra (38 a más) una tasa 50% superior a la ordinaria.
+* Impuestos 0% si el salario bruto es menor o igual a 800 dólares.
+* Impuestos 10% si el salario bruto es mayor de 800 dólares.
 
-4.11. Escribir y ejecutar un programa que simule un calculador simple. Lee dos enteros y un carácter. Si el carácter es un +, se  imprime la suma; si es un -, se imprime la diferencia; si es un *, se imprime el producto, si es un /, se imprime el cociente; y si es un % se imprime el resto.
+4.11. Escribir y ejecutar un programa que simule un calculador simple. Lee dos enteros y un carácter. Si el carácter es un +, se  imprime la suma; si es un -, se imprime la diferencia; si es un *, se imprime el producto, si es un /, se imprime el cociente; y si es un % se imprime el resto (Utilizar la sentencia switch).
