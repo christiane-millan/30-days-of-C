@@ -9,7 +9,7 @@
 
 ## 1. Lenguaje de programación C
 
-### [Día 1](./01_day_introduction/README.md)
+### [Día 1](./01_day_introduction/README.MD)
 
 * [Introducción](https://github.com/christiane-millan/30-days-of-C/tree/main/01_day_introduction#introducci%C3%B3n)
 * [Estructura de un progama](https://github.com/christiane-millan/30-days-of-C/tree/main/01_day_introduction#estructura-de-un-programa)
