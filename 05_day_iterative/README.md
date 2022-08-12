@@ -1,9 +1,9 @@
 # Día 5
 
-* [Estructuras Iterativas](https://github.com/christiane-millan/30-days-of-C/tree/main/05_day_iterative#estructuras-iterativas)
-* [While](https://github.com/christiane-millan/30-days-of-C/tree/main/05_day_iterative#while)
-* [Do While](https://github.com/christiane-millan/30-days-of-C/tree/main/05_day_iterative#do--while)
-* [For](https://github.com/christiane-millan/30-days-of-C/tree/main/05_day_iterative#for)
+* [Estructuras Iterativas](#estructuras-iterativas)
+* [While](#while)
+* [Do While](#do--while)
+* [For](#for)
 
 ## Estructuras iterativas
 
