@@ -39,9 +39,9 @@
 ### [Día 5](./05_day_iterative/README.md)
 
 * Estructuras Iterativas
-* While
-* Do While
-* For
+  * While
+  * Do While
+  * For
 
 ## 3. Programación modular
 

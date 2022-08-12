@@ -1,9 +1,9 @@
 # Día 5
 
 * [Estructuras Iterativas](#estructuras-iterativas)
-* [While](#while)
-* [Do While](#do--while)
-* [For](#for)
+  * [While](#while)
+  * [Do While](#do--while)
+  * [For](#for)
 * [Ejercicios](#ejercicios)
 * [Problemas](#problemas)
 
@@ -13,8 +13,8 @@ Algunas operaciones necesitan ser repetidas más de una vez antes de mostrar un 
 
 Existen dos tipos generales de expresiones de continuación utilizados para declaraciones de ciclos:
 
-- Ciclado **controlado por contado**r, donde el número de iteraciones dependen de un contador de algún tipo. El número deseado de iteraciones es conocido de forma previa. El contador puede incrementarse o decrementarse.
-- Ciclado por **condiciones** o controlado por un **centinela**, donde el número de iteraciones depende de alguna condición para mantener true en el ciclo para continuar. El número actual de iteraciones no es conocido. Un centinela es un valor que debe ser alcanzar un cierto estado antes de que el ciclo se complete.
+* Ciclado **controlado por contado**r, donde el número de iteraciones dependen de un contador de algún tipo. El número deseado de iteraciones es conocido de forma previa. El contador puede incrementarse o decrementarse.
+* Ciclado por **condiciones** o controlado por un **centinela**, donde el número de iteraciones depende de alguna condición para mantener true en el ciclo para continuar. El número actual de iteraciones no es conocido. Un centinela es un valor que debe ser alcanzar un cierto estado antes de que el ciclo se complete.
 
 ## While
 
