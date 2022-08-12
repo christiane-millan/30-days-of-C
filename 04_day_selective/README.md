@@ -1014,7 +1014,7 @@ donde `N` indica el número de día del mes de marzo (si `N` es igual o menor qu
 
 ## Problemas
 
-4.1. Cuatro enteros entre 0 y 100 representan las puntiaciones de un estudiante en un curso de informática. Escribir un programa para encontrar la media de estas puntuaciones y visualizar una tabla de notas de acuerdo con el siguiente cuadro:
+4.1. Cuatro enteros entre 0 y 100 representan las puntuaciones de un estudiante en un curso de informática. Escribir un programa para encontrar la media de estas puntuaciones y visualizar una tabla de notas de acuerdo con el siguiente cuadro:
 
 | Media | Puntuación |
 |-------|------------|
