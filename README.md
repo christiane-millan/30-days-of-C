@@ -36,9 +36,12 @@
   * [switch](https://github.com/christiane-millan/30-days-of-C/tree/main/04_day_selective#sentencia-switch)
   * [?:](https://github.com/christiane-millan/30-days-of-C/tree/main/04_day_selective#operador--)
 
-### [Día 5]()
+### [Día 5](https://github.com/christiane-millan/30-days-of-C/tree/main/05_day_iterative)
 
-* Estructuras Iterativas
+* [Estructuras Iterativas](https://github.com/christiane-millan/30-days-of-C/tree/main/05_day_iterative#estructuras-iterativas)
+* [While](https://github.com/christiane-millan/30-days-of-C/tree/main/05_day_iterative#while)
+* [Do While](https://github.com/christiane-millan/30-days-of-C/tree/main/05_day_iterative#do--while)
+* [For](https://github.com/christiane-millan/30-days-of-C/tree/main/05_day_iterative#for)
 
 ## 3. Programación modular
 

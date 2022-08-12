@@ -1,5 +1,10 @@
 # Día 5
 
+* [Estructuras Iterativas](https://github.com/christiane-millan/30-days-of-C/tree/main/05_day_iterative#estructuras-iterativas)
+* [While](https://github.com/christiane-millan/30-days-of-C/tree/main/05_day_iterative#while)
+* [Do While](https://github.com/christiane-millan/30-days-of-C/tree/main/05_day_iterative#do--while)
+* [For](https://github.com/christiane-millan/30-days-of-C/tree/main/05_day_iterative#for)
+
 ## Estructuras iterativas
 
 Algunas operaciones necesitan ser repetidas más de una vez antes de mostrar un resultado. El código puede ser copiado el número de veces requerido, pero esto puede resultar muy complicado. En su lugar, para esto, se utilizan los ciclos —`for …`, `while …`, `do …while` . Los ciclos son sentencias que deben ser evaluados múltiples veces.
