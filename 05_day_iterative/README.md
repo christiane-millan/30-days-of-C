@@ -4,6 +4,8 @@
 * [While](#while)
 * [Do While](#do--while)
 * [For](#for)
+* [Ejercicios](#ejercicios)
+* [Problemas](#problemas)
 
 ## Estructuras iterativas
 
