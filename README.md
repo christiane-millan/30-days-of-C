@@ -38,10 +38,10 @@
 
 ### [Día 5](./05_day_iterative/README.md)
 
-* [Estructuras Iterativas](https://github.com/christiane-millan/30-days-of-C/tree/main/05_day_iterative#estructuras-iterativas)
-* [While](https://github.com/christiane-millan/30-days-of-C/tree/main/05_day_iterative#while)
-* [Do While](https://github.com/christiane-millan/30-days-of-C/tree/main/05_day_iterative#do--while)
-* [For](./05_day_iterative/README.md#for)
+* Estructuras Iterativas
+* While
+* Do While
+* For
 
 ## 3. Programación modular
 
