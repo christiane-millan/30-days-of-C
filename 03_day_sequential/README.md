@@ -162,10 +162,10 @@ Diseñar un programa que lea dos conjuntos de coefiencientes (a, b y c; d, e y f
 2.28. Escribir un programa que exprese cierta cantidad de pesos mexicanos en billetes y monedas del curso legal.
 
 2.29. La fuerza de atracción entre dos masas, $m_1$ y $m_2$ separadas por una distancia $d$, está dada por la fórmula:
-$F = \frac{G * m_1 * m_2}{d^2}
+$F = \frac{G *  m_1  *  m_2}{d^2}
 donde $G$ es la constante de gravitación universal
 $G = 6.673 \cdot 10^{-8} cm^3/g \cdot s^2$
-Escribir un programa que lea la masade de dos cuerpos y la distancia entre ellos y a continuación ontenga la fuerza gravitacional entre ellos. La salida debe ser en dinas; un dina es igual a $g \cdot cm 7 s^2$.
+Escribir un programa que lea la masade de dos cuerpos y la distancia entre ellos y a continuación ontenga la fuerza gravitacional entre ellos. La salida debe ser en dinas; un dina es igual a $g \cdot cm / s^2$.
 
 2.30 La relación entre los lados $(a, b)$ de un triángulo y la hipotenusa $(h)$ viene dada por la fórmula:
 $a^2 + b^2 = h^2$

@@ -11,30 +11,30 @@
 
 ### [Día 1](./01_day_introduction/README.MD)
 
-* [Introducción](https://github.com/christiane-millan/30-days-of-C/tree/main/01_day_introduction#introducci%C3%B3n)
-* [Estructura de un progama](https://github.com/christiane-millan/30-days-of-C/tree/main/01_day_introduction#estructura-de-un-programa)
-* [Tipos de datos](https://github.com/christiane-millan/30-days-of-C/tree/main/01_day_introduction#tipos-de-datos)
+* Introducción
+* Estructura de un progama
+* Tipos de datos
 
-### [Día 2](https://github.com/christiane-millan/30-days-of-C/tree/main/02_day_operators)
+### [Día 2](./02_day_operators/README.md)
 
-* [Operadores I](https://github.com/christiane-millan/30-days-of-C/tree/main/02_day_operators#operadores-i)
-* [Instrucciones de entrada y salida](https://github.com/christiane-millan/30-days-of-C/tree/main/02_day_operators#instrucciones-de-entrada-y-salida)
+* Operadores I
+* Instrucciones de entrada y salida
 
 ## 2. Estructuras de control
 
-### [Día 3](https://github.com/christiane-millan/30-days-of-C/tree/main/03_day__sequential)
+### [Día 3](./03_day__sequential/README.md)
 
-* [Estructuras Secuenciales](https://github.com/christiane-millan/30-days-of-C/tree/main/03_day__sequential#estructuras-secuenciales)
+* Estructuras Secuenciales
 
-### [Día 4](https://github.com/christiane-millan/30-days-of-C/tree/main/04_day_selective)
+### [Día 4](./04_day_selective/README.md)
 
-* [Operadores II](https://github.com/christiane-millan/30-days-of-C/tree/main/04_day_selective#operadores-ii-comparaci%C3%B3n-y-l%C3%B3gicos)
-* [Estructuras Selectivas](https://github.com/christiane-millan/30-days-of-C/tree/main/04_day_selective#estructuras-selectivas)
-  * [if](https://github.com/christiane-millan/30-days-of-C/tree/main/04_day_selective#la-sentencia-if)
-  * [if-else](https://github.com/christiane-millan/30-days-of-C/tree/main/04_day_selective#la-sentencia-if-else)
-  * [if-else anidados](https://github.com/christiane-millan/30-days-of-C/tree/main/04_day_selective#sentencias-if-else-anidadas)
-  * [switch](https://github.com/christiane-millan/30-days-of-C/tree/main/04_day_selective#sentencia-switch)
-  * [?:](https://github.com/christiane-millan/30-days-of-C/tree/main/04_day_selective#operador--)
+* Operadores II
+* Estructuras Selectivas
+  * if
+  * if-else
+  * if-else anidados
+  * switch
+  * ?:
 
 ### [Día 5](./05_day_iterative/README.md)
 
@@ -45,10 +45,14 @@
 
 ## 3. Programación modular
 
-* [6 .Iterativas]()
-* [7 .Iteraticas]()
-* [8 .Iteraticas]()
+### [Día 6](./06_day_functions/06_day_functions.md)
 
+* Funciones
+* Funciones por valor
+
+### [Día 7](./07_day_function_ii/07_day_functions_ii.md)
+
+* Funciones por referencia
 
 ## 4. Arreglos
 

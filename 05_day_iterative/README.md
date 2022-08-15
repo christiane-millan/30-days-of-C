@@ -175,7 +175,7 @@ while (nota != centinela)
 puts("Final");
 ```
 
-Bucles controlados por indicadores (baderas)
+Bucles controlados por indicadores (banderas)
 
 ```c
 digito_leido = 0; /* no se ha leído ningún dato */
@@ -189,7 +189,7 @@ while (!digito_leido)
  } /* fin de while */
 ```
 
-Ejemplo. Se desea leer un dato numérico x cuyo valor ha de ser mayor que cero para cacular la función $f(x) = x * log(x)$
+Ejemplo. Se desea leer un dato numérico x cuyo valor ha de ser mayor que cero para calcular la función $f(x) = x * log(x)$
 
 ```c
 #include <stdio.h> 
@@ -618,6 +618,13 @@ void main()
 ## Problemas
 
 5.1. En una empresa de computadoras, los salarios de los empleados se van a aumentar según su contrato actual:
+
+| Contrato | Aumento % |
+| --- | --- |
+| $0 a $9,000  | 20 |
+| $9,001 a $15,000  | 10 |
+| $15,001 a $20,000 | 5 |
+| más de $20,000 | 0 |
 
 Escribir un programa que solicite el salario actual del empleado y después calcule y visualice el nuevo salario.
 
