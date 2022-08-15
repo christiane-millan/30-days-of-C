@@ -682,3 +682,13 @@ Si *r*1 < > 0, se divide *r*1 entre *b*1, obteniendo el cociente *q*2 y el resto
 el número de líneas que se pueden introducir es variable.
 
 5.13. Escribir un programa que visualice la siguiente salida.
+
+```bash
+1
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 
+1 2
+1
+```
