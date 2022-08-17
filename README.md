@@ -48,11 +48,18 @@
 ### [Día 6](./06_day_functions/06_day_functions.md)
 
 * Funciones
-* Funciones por valor
+  * Definición de una función
+  * Prototipos de una función
+* Parámetros de la función
+  * Paso de parámetros por valor
+  * Paso de parámetros por referencia
+* Funciones en línea, macros con argumentos
+* Funciones de biblioteca
+* Ejercicios
+* Problemas
 
 ### [Día 7](./07_day_function_ii/07_day_functions_ii.md)
 
-* Funciones por referencia
 
 ## 4. Arreglos
 
