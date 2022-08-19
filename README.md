@@ -53,18 +53,28 @@
 * Parámetros de la función
   * Paso de parámetros por valor
   * Paso de parámetros por referencia
-* Funciones en línea, macros con argumentos
-* Funciones de biblioteca
 * Ejercicios
 * Problemas
 
 ### [Día 7](./07_day_function_ii/07_day_functions_ii.md)
 
+* Funciones en línea, macros con argumentos
+* Funciones de biblioteca
 
 ## 4. Arreglos
 
-* [9 .Iteraticas]()
-* [10 .Iteraticas]()
+### [Día 8](./08_day_array_1d/08_day_array_1d.md)
+
+* Unidimensionales
+
+### [Día 9]()
+
+* Bidimensionales
+
+### [Día 10]()
+
+* Multidimensionales
+* Arreglos como parámetros
 
 ## 5. Apuntadores
 
@@ -88,16 +98,15 @@
 * [22]()
 * [23]()
 * [24]()
-* [25]()
 
 ## 8. Tipos de datos definidos por el programador
 
+* [25]()
 * [26]()
 * [27]()
-* [28]()
-* [29]()
-* [30]()
 
 ## 9. Archivos
 
-*
+* [28]()
+* [29]()
+* [30]()
