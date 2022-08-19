@@ -22,7 +22,7 @@
 
 ## 2. Estructuras de control
 
-### [Día 3](./03_day__sequential/README.md)
+### [Día 3](./03_day_sequential/README.md)
 
 * Estructuras Secuenciales
 
