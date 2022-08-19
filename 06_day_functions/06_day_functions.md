@@ -33,6 +33,8 @@ Las funciones son una parte esencial en un programa de C. Cada función que es c
 
 Ejemplos de funciones
 
+[Video clase - Ejemplo de funciones](https://www.youtube.com/watch?v=n2tPB8msQN8&list=PL3_qQRFomlqLXuL2ukPe0pTNKoVt3fuMJ&index=2)
+
 La función `cuadrado()` escribe los cuadrados de números enteros sucesivos a partir de un número dado `n`, parámetro de la función, hasta obtener un cuadrado mayor de 1000. Esta función no devuelve un valor, es de tipo void, por esta razón la sentencia final es simplemente `return`.
 
 ```c
