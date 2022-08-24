@@ -19,7 +19,7 @@ La mayoría de los programadores no construyen bibliotecas, sino que, simplement
 
 ### Definición de una función
 
-[Video clase - funciones](https://www.youtube.com/watch?v=cP9-B_i83JM&list=PL3_qQRFomlqLXuL2ukPe0pTNKoVt3fuMJ&index=1)
+[📹 Video clase - funciones](https://www.youtube.com/watch?v=cP9-B_i83JM&list=PL3_qQRFomlqLXuL2ukPe0pTNKoVt3fuMJ&index=1)
 
 El lenguaje C es un lenguaje de programación estructurado, también llamado programación modular. Al escribir un programa este se divide en módulos, en lugar de uno solo. El programa se fracciona en módulos (o funciones) con la finalidad de aislar los problemas, escribir programas correctos más rápido y producir programas que son mucho más fáciles de mantener.
 
@@ -33,7 +33,7 @@ Las funciones son una parte esencial en un programa de C. Cada función que es c
 
 Ejemplos de funciones
 
-[Video clase - Ejemplo de funciones](https://www.youtube.com/watch?v=n2tPB8msQN8&list=PL3_qQRFomlqLXuL2ukPe0pTNKoVt3fuMJ&index=2)
+[📹 Video clase - Ejemplo de funciones](https://www.youtube.com/watch?v=n2tPB8msQN8&list=PL3_qQRFomlqLXuL2ukPe0pTNKoVt3fuMJ&index=2)
 
 La función `cuadrado()` escribe los cuadrados de números enteros sucesivos a partir de un número dado `n`, parámetro de la función, hasta obtener un cuadrado mayor de 1000. Esta función no devuelve un valor, es de tipo void, por esta razón la sentencia final es simplemente `return`.
 
@@ -75,6 +75,8 @@ float suma (int num_elementos)
 ```
 
 ### Prototipos de funciones
+
+[📹 Video clase - Prototipo de una función](https://www.youtube.com/watch?v=GYMS5pp2IdM&list=PL3_qQRFomlqLXuL2ukPe0pTNKoVt3fuMJ&index=3)
 
 La declaración de una función se denomina prototipo. Los prototipos de una función contienen la cabecera de la función, con la diferencia de que los prototipos terminan en punto y coma. 
 
@@ -311,21 +313,21 @@ void f2(int x, int* const y)
 
 6.2. Escribir una función que determine si una cadena de caracteres es un palíndromo (un palíndromo es un texto que se lee igual en sentido directo y en sentido inverso: radar).
 
-6.3. Escribir un programa que mediante  una función que acepte un número de día, mes y año y lo visualice en formato dd/mm/aa
+6.3. Escribir un programa que mediante una función que acepte un número de día, mes y año y lo visualice en formato dd/mm/aa
 
-Por ejemplo los valores8, 10, 1946 se visualizaran como:
+Por ejemplo los valores: 8, 10, 1946 se visualizaran como:
 
 8/10/46
 
 6.4. Escribir un programa que utilice una función para convertir coordenadas polares a rectangulares
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6b799d7d-cfc5-4bb5-9317-da80de8f6ebe/Untitled.png)
+![Untitled](./img/polar.png)
 
 6.5. Escribir un programa que lea un entero positivo y a continuación llame a una función que visualice sus factores primos.
 
 6.6. Escribir un programa, mediante funciones, que visualice un calendario de la forma:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6a126fe2-393b-4afc-8166-ff338e835a85/Untitled.png)
+![Untitled](./img/calendar.png)
 
 El usuario indica únicamente el mes y el año.
 
@@ -361,8 +363,8 @@ $Área = \sqrt{p(p-a)(p-b)(p-c)}$ donde $p = \frac{a+b+c}{2}$
 
 6.16. Escribir un programa mediante funciones que realiza las siguientes tareas:
 
-1. Devolver el valor del día de la semana en respuesta a la entrada de la letra inicial (mayúscula o minúscula) de dicho día.
-2. Determinar el número de días de un mes
+  1. Devolver el valor del día de la semana en respuesta a la entrada de la letra inicial (mayúscula o minúscula) de dicho día.
+  2. Determinar el número de días de un mes
 
 6.17. Escribir un programa que lea una cadena de hasta diez caracteres que representan un número en numeración romana e imprima el formato de número romano y si equivalente en numeración arábiga. Los caracteres romanos y sus equivalentes son:
 
