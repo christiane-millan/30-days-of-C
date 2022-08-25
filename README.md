@@ -66,23 +66,34 @@
 ### [Día 8](./08_day_array_1d/08_day_array_1d.md)
 
 * Unidimensionales
+* Arreglos como parámetros
 
-### [Día 9]()
+### [Día 9](./09_day_array_2d_nd/09_day_array2d_nd.md)
 
 * Bidimensionales
-
-### [Día 10]()
-
 * Multidimensionales
 * Arreglos como parámetros
 
+### [Día 10](./10_day_array_strings/10_day_strings.md)
+
+* Cadenas
+
 ## 5. Apuntadores
 
-* [11 .Iteraticas]()
-* [12 .Iteraticas]()
-* [13 .Iteraticas]()
-* [14 .Iteraticas]()
-* [15 .Iteraticas]()
+### [Día 11]()
+
+* Apuntadores
+
+### [Día 12]()
+
+* Aritmética de apuntadores
+
+### [Día 13]()
+
+* Memoria estática y dinámica
+
+### [Día 14]()
+* Arreglos dinámicos de una o dos dimensiones
 
 ## 6. Recursión
 
@@ -96,11 +107,12 @@
 
 * [21]()
 * [22]()
-* [23]()
-* [24]()
+
 
 ## 8. Tipos de datos definidos por el programador
 
+* [23]()
+* [24]()
 * [25]()
 * [26]()
 * [27]()
