@@ -1,5 +1,18 @@
 # Día 9
 
+- [Día 9](#día-9)
+  - [Arreglos bidimensionales y N-dimensionales](#arreglos-bidimensionales-y-n-dimensionales)
+    - [Declaración de arreglos de dos dimensiones](#declaración-de-arreglos-de-dos-dimensiones)
+    - [Inicialización de arreglos de dos dimensiones](#inicialización-de-arreglos-de-dos-dimensiones)
+    - [Declaración de arreglos tridimensionales](#declaración-de-arreglos-tridimensionales)
+    - [Inicialización de arreglos de tres dimensiones](#inicialización-de-arreglos-de-tres-dimensiones)
+    - [Declaración de arreglos n-dimensionales](#declaración-de-arreglos-n-dimensionales)
+    - [Acceso a elementos de un arreglo multidimensional](#acceso-a-elementos-de-un-arreglo-multidimensional)
+    - [Manipulación de arreglos multidimensionales con ciclos](#manipulación-de-arreglos-multidimensionales-con-ciclos)
+    - [Arreglos multidimensionales como paso de parámetros](#arreglos-multidimensionales-como-paso-de-parámetros)
+  - [Ejercicios](#ejercicios)
+  - [Problemas](#problemas)
+
 ## Arreglos bidimensionales y N-dimensionales
 
 En esta sección se extiende el concepto de un arreglo de una dimensión a muchas dimensiones. Los arreglos multidimensionales ocurren en miles de circunstancias de la vida diaria, desde un tablero de juego de damas chinas o un tablero de ajedrez, una tabla de multiplicar, o los pixeles de una pantalla hasta mas complejos objetos tridimensionales como un espacio volumétrico.
@@ -167,7 +180,7 @@ array_3D[size_3D-1][size_2D-1][size_1D-1] = last;
 array_4D[size_4D-1][size_3D-1][size_2D-1][size_1D-1] = last;
 ```
 
-### Manipulación de arreglos de multidimensionales con ciclos
+### Manipulación de arreglos multidimensionales con ciclos
 
 Existen múltiples formas de acceder a arreglos multidimensionales con ciclos, pero una de las formas más comunes es utilizar `for()…` anidados. 
 
