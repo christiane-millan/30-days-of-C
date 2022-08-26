@@ -509,3 +509,5 @@ Escribir un programa que haga las siguientes tareas:
 9.12. Se dice que una matriz tienen un punto de silla si alguna posición de la matriz es el menor valor de su fila, y a la vez el mayor de su columna. Escribir un programa que tenga como entrada una matriz de números reales y calcule la posición de un punto de silla (si es que existe).
 
 9.13. Escribir un programa en el que se genere aleatoriamente un arreglo de 20 números enteros. El vector ha de quedar de tal forma que la suma de los primeros 10 elementos sea mayor que la suma de los 10 últimos elementos. Mostrar el arreglo original y el arreglo con la distribución indicada.
+
+[<< día 8](../08_day_array_1d/08_day_array_1d.md) | [Inicio](../) | [día 9](#día-9) | [día 10 >>](../10_day_array_strings/10_day_strings.md) 
