@@ -1,4 +1,6 @@
-# Arreglos bidimensionales y N-dimensionales
+# Día 9
+
+## Arreglos bidimensionales y N-dimensionales
 
 En esta sección se extiende el concepto de un arreglo de una dimensión a muchas dimensiones. Los arreglos multidimensionales ocurren en miles de circunstancias de la vida diaria, desde un tablero de juego de damas chinas o un tablero de ajedrez, una tabla de multiplicar, o los pixeles de una pantalla hasta mas complejos objetos tridimensionales como un espacio volumétrico.
 
@@ -30,7 +32,7 @@ En el mundo real existen muchos ejemplos de arreglos de tres dimensiones: oficin
 
 Se puede conceptualizar un arreglo de N dimensiones como un arreglo de arreglos de (n-1) dimensiones. En este punto resulta difícil realizar una conceptualización visual de arreglos multidimensionales. En C se permite un número ilimitado de arreglos multidimensionales. 
 
-## Declaración de arreglos de dos dimensiones
+### Declaración de arreglos de dos dimensiones
 
 ```c
 int array_2D[4][5];
@@ -50,7 +52,7 @@ int cols = 5;
 int array_2D[row][cols]
 ```
 
-## Inicialización de arreglos de dos dimensiones
+### Inicialización de arreglos de dos dimensiones
 
 Inicializar todos los elementos en 0. 
 
@@ -67,7 +69,7 @@ int array_2D[size_2D][size_1D] = { {11 , 12 , 13 , 14 , 15 } ,
                                    {41 , 42 , 43 , 44 , 45 ) };
 ```
 
-## Declaración de arreglos tridimensionales
+### Declaración de arreglos tridimensionales
 
 ```c
 const int size_1D = 5;
@@ -86,7 +88,7 @@ int z = 3;
 int array_3D[x][y][z];
 ```
 
-## Inicialización de arreglos de tres dimensiones
+### Inicialización de arreglos de tres dimensiones
 
 ```c
 int array_3D[3][4][5] = {0};
@@ -102,7 +104,7 @@ int array3D[size3D][size2D][size1D] =
                              {321 , 322 , 323 , 324 , 325 } } };
 ```
 
-## Declaración de arreglos n-dimensionales
+### Declaración de arreglos n-dimensionales
 
 ```c
 const int size_1D = 5;
@@ -119,7 +121,7 @@ La inicialización de un arreglo n-dimensional puede ser tediosa, por lo que se 
 int array4D[size_4D][size_3D][size_2D][size_1D] = {0};
 ```
 
-## Acceso a elementos de un arreglo multidimensional
+### Acceso a elementos de un arreglo multidimensional
 
 Para acceder a los elementos de un arreglo se deben considerar tanto las dimensiones del arreglo  el uso de un rango valido de índices.
 
@@ -165,7 +167,7 @@ array_3D[size_3D-1][size_2D-1][size_1D-1] = last;
 array_4D[size_4D-1][size_3D-1][size_2D-1][size_1D-1] = last;
 ```
 
-## Manipulación de arreglos de multidimensionales con ciclos
+### Manipulación de arreglos de multidimensionales con ciclos
 
 Existen múltiples formas de acceder a arreglos multidimensionales con ciclos, pero una de las formas más comunes es utilizar `for()…` anidados. 
 
@@ -191,7 +193,7 @@ for( k = 0 ; k < size_3D ; k++ )  {      // k : 0..(size3D-1)
 }
 ```
 
-## Arreglos multidimensionales como paso de parámetros
+### Arreglos multidimensionales como paso de parámetros
 
 Ahora se crearán funciones que permiten manipular los arreglos:
 
@@ -371,3 +373,126 @@ void escribe_mat(int a[][N], int n)
          printf("%d %c",a[i][j],(j==n-1 ?’\n ':' '));
 } }
 ```
+
+## Ejercicios
+
+9.1. Escribir un programa que lea el arreglo:
+
+```bash
+4 7 1 3 5 
+2 0 6 9 7 
+3 1 2 6 4
+```
+
+y lo escriba como
+
+```bash
+4 2 3 
+7 0 1 
+1 6 2 
+3 9 6 
+5 7 4
+```
+
+9.2. Dado un arreglo
+
+```bash
+4  7 −5  4  9 
+0  3 −2  6 −2 
+1  2  4  1  1 
+6  1  0  3 −4
+```
+
+Escribir un programa que encuentre la suma de todos los elementos que no pertenecen a la diagonal principal.
+
+9.3. Escribir una función que intercambie la fila i-énesima por la j-énesima de un arreglo de dos dimensiones, $m \times n$.
+
+9.4. Escribir una función que tenga cómo entrada una cadena y devuelva el número de vocales, constantes y de dígitos de cadena.
+
+9.5. Escribir una función para transformar un número entero en una cadena de caracteres formada por los dígitos del número entero.
+
+9.6. Escribir una función para transformar un número real en una cadena de caracteres formada por los dígitos del número real.
+
+## Problemas
+
+Nota: todos los problemas se debe resolver descomponiendo el problema en módulos que serán funciones en C.
+
+9.1. Escribir un programa que convierta un número romano (en forma de cadena de caracteres) en número arábigo.
+
+M 1000
+
+D 500
+
+C 100
+
+L 50
+
+X 10
+
+V 5
+
+I 1
+
+9.2. Escribir un programa que permita visualizar el triángulo de Pascal:
+
+```bash
+													  1
+													1   1 
+												1   2   1 
+										  1   3   3   1
+	                  1   4   6   4   1
+                  1   5  10  10   5   1
+                1   6  15  20  15   6   1
+```
+
+En el triángulo de Pascal cada número es sima de los números situados encima de él. Este problema se puede resolver utilizando un arreglo de una sola dimensión.
+
+9.3. Escribir una función que invierta el contenido de $n$ números enteros. El primero devuelve el último, el segundo el penúltimo, etc.
+
+9.4.  
+
+9.5. Escribir un programa que visualice un cuadrado mágico de orden impar *n* comprendido entre 3 y 11; el usuario debe elegir el valor de *n*. Un cuadrado mágico se compone de números enteros comprendidos entre 1 y *n*. La suma de los números que figuran en cada fila, columna y diagonal son iguales.
+Ejemplo:
+
+```bash
+8 1 6 
+3 5 7 
+4 9 2
+```
+
+Un método de generación consiste en situar el número 1 en el centro de la primera fila, el número siguiente en la casilla situada por encima y a la derecha, y así sucesivamente. El cuadrado es cíclico: la línea encima de la primera es, de hecho, la última y la columna a la derecha de la última es la primera. En el caso de que el número generado caiga en una casilla ocupada, se elige la casilla situada encima del número que acaba de ser situado.
+
+9.6. El juego del ahorcado se juega con dos personas (o una persona y una computadora). Un jugador selecciona la palabra y el otro jugador trata de averiguar la palabra para jugar al ahorcado. Sugerencia: almacenar una lista de palabras en un arreglo y seleccionar palabras aleatoriamente.
+
+9.7. Escribir un programa que las las dimensiones de una matriz, la visualice y a continuación encuentre el mayo y el menor elemento de la matriz y sus posiciones.
+
+9.8. Si x representa la media de los números $x_1, x_2, \ldots, x_n$ entonces la varianza es la media de los cuadrados de la desviación de los números de la media.
+
+$\sigma^2 = \frac{1}{n} \Sigma_{i=1}^n (x_i - x)^2$
+
+y la desviación estándar es la raí cuadrada de la varianza. Escribir un programa que lea una lista de números reales, los cuenta y a continuación calcule e imprima su media, varianza y desviación estándar. Utilizar funciones para calcular la media, varianza y desviación estándar.
+
+9.9. Escribir un programa para leer una matriz A y formar la matriz traspuesta de A. El programa debe escribir ambas matrices.
+
+9.10. Escribir una función que acepte como parámetro un arreglo que puede contener elementos duplicados. La función debe sustituir cada valor repetido por $-5$ y devolver al punto donde fue llamado el arreglo modificado y el número de entradas modificadas.
+
+9.11. Los resultados de las últimas elecciones a presidente en el pueblo $x$ han sido las siguientes:
+
+| Distrito | Candidato A | Candidato B | Candidato C | Candidato D |
+| --- | --- | --- | --- | --- |
+| 1 | 194 | 48 | 206 | 45 |
+| 2 | 180 | 20 | 320 | 16 |
+| 3 | 221 | 90 | 140 | 20 |
+| 4 | 432 | 50 | 821 | 14 |
+| 5 | 820 | 61 | 946 | 18 |
+
+Escribir un programa que haga las siguientes tareas:
+
+* Imprimir la tabla anterior con cabeceras incluidas.
+* Calcular e imprimir el número total de votos recibidos por cada candidato y el porcentaje del total de votos emitidos. Asimismo, visualizar el candidato más votado.
+* Si algún candidato recibe más de 50% de los datos, el programa imprimirá un mensaje declarándole ganador.
+* Si ningún candidato recibe más de 50% de los datos, el programa debe imprimir el nombre de los dos candidatos más votados, que serán los que pasen a la segunda ronda de las elecciones.
+
+9.12. Se dice que una matriz tienen un punto de silla si alguna posición de la matriz es el menor valor de su fila, y a la vez el mayor de su columna. Escribir un programa que tenga como entrada una matriz de números reales y calcule la posición de un punto de silla (si es que existe).
+
+9.13. Escribir un programa en el que se genere aleatoriamente un arreglo de 20 números enteros. El vector ha de quedar de tal forma que la suma de los primeros 10 elementos sea mayor que la suma de los 10 últimos elementos. Mostrar el arreglo original y el arreglo con la distribución indicada.
