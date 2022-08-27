@@ -65,14 +65,28 @@
 
 ### [Día 8](./08_day_array_1d/08_day_array_1d.md)
 
-* Unidimensionales
-* Arreglos como parámetros
+- Día 8. Arreglos unidimensionales
+  - Inicialización de arreglos
+    - Almacenamiento en memoria de los arreglos
+    - El tamaño de los arreglos
+  - Acceso a los elementos de un arreglo
+  - Asignación de valores a los elementos de un arreglo
+  - Operaciones en arreglos con loops
+  - Arreglos como paso de parámetros
 
 ### [Día 9](./09_day_array_2d_nd/09_day_array2d_nd.md)
 
-* Bidimensionales
-* Multidimensionales
-* Arreglos como parámetros
+* Arreglos bidimensionales y N-dimensionales
+  * Declaración de arreglos de dos dimensiones
+  * Inicialización de arreglos de dos dimensiones
+  * Declaración de arreglos tridimensionales
+  * Inicialización de arreglos de tres dimensiones
+  * Declaración de arreglos n-dimensionales
+  * Acceso a elementos de un arreglo multidimensional
+  * Manipulación de arreglos multidimensionales con ciclos
+  * Arreglos multidimensionales como paso de parámetros
+* Ejercicios
+* Problemas
 
 ### [Día 10](./10_day_array_strings/10_day_strings.md)
 
