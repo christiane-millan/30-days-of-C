@@ -510,4 +510,4 @@ Escribir un programa que haga las siguientes tareas:
 
 9.13. Escribir un programa en el que se genere aleatoriamente un arreglo de 20 números enteros. El vector ha de quedar de tal forma que la suma de los primeros 10 elementos sea mayor que la suma de los 10 últimos elementos. Mostrar el arreglo original y el arreglo con la distribución indicada.
 
-[<< día 8](../08_day_array_1d/08_day_array_1d.md) | [Inicio](../) | [día 9](#día-9) | [día 10 >>](../10_day_array_strings/10_day_strings.md) 
+[<< día 8](../08_day_array_1d/08_day_array_1d.md) | [Inicio](../README.md) | [día 9](#día-9) | [día 10 >>](../10_day_array_strings/10_day_strings.md) 
