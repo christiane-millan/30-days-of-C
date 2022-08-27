@@ -13,7 +13,7 @@
   - [Ejercicios](#ejercicios)
   - [Problemas](#problemas)
 
-[<< día 8](../08_day_array_1d/08_day_array_1d.md) | [Inicio](../README.md) | [día 9](#día-9) | [día 10 >>](../10_day_array_strings/10_day_strings.md)
+[<< día 8](../08_day_array_1d/08_day_array_1d.md) | [Inicio](../README.md) | [día 10 >>](../10_day_array_strings/10_day_strings.md)
 
 ## Arreglos bidimensionales y N-dimensionales
 
