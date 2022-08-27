@@ -65,14 +65,15 @@
 
 ### [Día 8](./08_day_array_1d/08_day_array_1d.md)
 
-- Día 8. Arreglos unidimensionales
-  - Inicialización de arreglos
-    - Almacenamiento en memoria de los arreglos
-    - El tamaño de los arreglos
-  - Acceso a los elementos de un arreglo
-  - Asignación de valores a los elementos de un arreglo
-  - Operaciones en arreglos con loops
-  - Arreglos como paso de parámetros
+* Arreglos unidimensionales
+  * Inicialización de arreglos
+    * Almacenamiento en memoria de los arreglos
+    * El tamaño de los arreglos
+  * Acceso a los elementos de un arreglo
+  * Asignación de valores a los elementos de un arreglo
+  * Operaciones en arreglos con loops
+  * Arreglos como paso de parámetros
+
 
 ### [Día 9](./09_day_array_2d_nd/09_day_array2d_nd.md)
 
