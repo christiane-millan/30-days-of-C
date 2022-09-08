@@ -1,5 +1,7 @@
 # Día 11
 
+[<< día 10](../10_day_array_strings/10_day_strings.md) | [Inicio](../README.md) | [día 12 >>](../12_day_pointers_arithmetic/12_day_pointers_arithmetic.md)
+
 - [Día 11](#día-11)
   - [Apuntadores](#apuntadores)
     - [Declaración de un apuntador](#declaración-de-un-apuntador)
@@ -270,3 +272,5 @@ Showing that * and & are complements of each other
 &*aPtr = 0028FEC0
 *&aPtr = 0028FEC0
 ```
+
+[<< día 10](../10_day_array_strings/10_day_strings.md) | [Inicio](../README.md) | [día 11](#día-11) | [día 12 >>](../12_day_pointers_arithmetic/12_day_pointers_arithmetic.md)
