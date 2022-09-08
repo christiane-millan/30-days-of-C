@@ -109,7 +109,7 @@
     * El tipo void*
     * Acceso al objetivo apuntado `*`
 
-### [Día 12]()
+### [Día 12](./12_day_pointers_arithmetic/12_day_pointers_arithmetic.md)
 
 * Aritmética de apuntadores
 
