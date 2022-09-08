@@ -117,6 +117,8 @@
 
 * Memoria estática y dinámica
 * Arreglos dinámicos de una o dos dimensiones
+* Ejercicios
+* Problemas
 
 ## 6. Recursión
 
