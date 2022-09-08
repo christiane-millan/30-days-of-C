@@ -97,7 +97,17 @@
 
 ### [Día 11](./11_day_pointers/11_day_pointers.md)
 
-* Apuntadores
+* Día 11
+  * Apuntadores
+    * Declaración de un apuntador
+    * Nombrado de apuntadores
+    * Asignación de valores apuntador (direcciones)
+  * Operadores de apuntadores
+    * Asignación de valores apuntador `&`
+    * Verificación de tipos
+    * Diferencia entre apuntar a NULL o void*
+    * El tipo void*
+    * Acceso al objetivo apuntado `*`
 
 ### [Día 12]()
 
