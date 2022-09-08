@@ -113,16 +113,14 @@
 
 * Aritmética de apuntadores
 
-### [Día 13]()
+### [Día 13](./13_day_dinamic_arrays/13_day_dinamic_arrays.md)
 
 * Memoria estática y dinámica
-
-### [Día 14]()
 * Arreglos dinámicos de una o dos dimensiones
 
 ## 6. Recursión
 
-* [16 .Iteraticas]()
+* [Día 14]()
 * [17 .Iteraticas]()
 * [18 .Iteraticas]()
 * [19.Iteraticas]()
