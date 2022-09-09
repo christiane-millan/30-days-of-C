@@ -29,6 +29,8 @@ Los apuntadores en C son una de las características más poderosas en C. Grande
 - Para el **manejo de cadenas**
 - Para el **uso de datos estructurados dinámicos**
 
+* [Video - Apuntadores - Introducción](https://www.youtube.com/watch?v=mYjOdX7cD3A&list=PL3_qQRFomlqLXuL2ukPe0pTNKoVt3fuMJ&index=18)
+
 ### Declaración de un apuntador
 
 ```c
@@ -137,6 +139,8 @@ char c;
 fp = &c;
 ```
 
+* [Video - Apuntadores - Declaración, inicialización e indirección de apuntado](https://www.youtube.com/watch?v=KmUsFaAaRq0&list=PL3_qQRFomlqLXuL2ukPe0pTNKoVt3fuMJ&index=19)
+
 ### Diferencia entre apuntar a NULL o void*
 
 Una variable apuntador siempre debe tener una valor asignado. Su valor nunca debe ser desconocido. Sin embargo, algunas ocasiones un apuntador no tienen asignada una dirección o aun no es conocida. En este caso, se utiliza la constante `NULL`. Este valor esta definido en `stddef.h`, `stdio.h`, `stdlib.h` y `string.h` ; y representa un valor de `0`. Se define como:
@@ -169,6 +173,8 @@ pDimension = &height;
 ...
 pDimenions = NULL;
 ```
+
+* [Video - Apuntadores - NULL y void](https://www.youtube.com/watch?v=hc63MCE6unI&list=PL3_qQRFomlqLXuL2ukPe0pTNKoVt3fuMJ&index=20)
 
 ### Acceso al objetivo apuntado `*`
 

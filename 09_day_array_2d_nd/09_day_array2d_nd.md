@@ -84,6 +84,8 @@ int array_2D[size_2D][size_1D] = { {11 , 12 , 13 , 14 , 15 } ,
                                    {41 , 42 , 43 , 44 , 45 ) };
 ```
 
+* [Video - Arreglos bidimensionales - Declaración y asignación](https://www.youtube.com/watch?v=aEDRpe9MSbI&list=PL3_qQRFomlqLXuL2ukPe0pTNKoVt3fuMJ&index=13)
+
 ### Declaración de arreglos tridimensionales
 
 ```c
@@ -207,6 +209,10 @@ for( k = 0 ; k < size_3D ; k++ )  {      // k : 0..(size3D-1)
   }
 }
 ```
+
+* [Video - Arreglos bidimensionales - ciclos anidados](https://www.youtube.com/watch?v=4WCoc4qX0Dc&list=PL3_qQRFomlqLXuL2ukPe0pTNKoVt3fuMJ&index=14)
+* [Video - Arreglos bidimensionales - ciclos anidados ejemplo](https://www.youtube.com/watch?v=_or3YJsNqZA&list=PL3_qQRFomlqLXuL2ukPe0pTNKoVt3fuMJ&index=15)
+* [Video - Arreglos bidimensionales - ciclos anidados ejemplo 2](https://www.youtube.com/watch?v=lMGSsOjMwIU&list=PL3_qQRFomlqLXuL2ukPe0pTNKoVt3fuMJ&index=16)
 
 ### Arreglos multidimensionales como paso de parámetros
 

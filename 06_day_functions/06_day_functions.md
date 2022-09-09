@@ -1,13 +1,16 @@
 # Día 6
 
-* [Funciones](#funciones)
-  * [Definición de una función](#definición-de-una-función)
-  * [Prototipos de una función](#prototipos-de-funciones)
-*[Parámetros de la función](#parámetros-const-de-una-función)
-  * [Paso de parámetros por valor](#paso-de-parámetros-por-valor)
-  * [Paso de parámetros por referencia](#paso-de-parámetros-por-referencia)
-* [Ejercicios](#ejercicios)
-* [Problemas](#problemas)
+- [Día 6](#día-6)
+  - [Funciones](#funciones)
+    - [Definición de una función](#definición-de-una-función)
+    - [Prototipos de funciones](#prototipos-de-funciones)
+  - [Parámetros de la función](#parámetros-de-la-función)
+    - [Paso de parámetros por valor](#paso-de-parámetros-por-valor)
+    - [Paso de parámetros por referencia](#paso-de-parámetros-por-referencia)
+  - [Diferencias entre paso de variables por valor y por referencia](#diferencias-entre-paso-de-variables-por-valor-y-por-referencia)
+  - [Parámetros `const` de una función](#parámetros-const-de-una-función)
+  - [Ejercicios](#ejercicios)
+  - [Problemas](#problemas)
 
 ## Funciones
 

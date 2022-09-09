@@ -93,6 +93,11 @@ Al dejar vacíos lo corchetes C  en la asignación, el compilador asigna automá
 
 </aside>
 
+* [Video - Declaración y asignación (Enteros) ](https://www.youtube.com/watch?v=otakC4DMosM&list=PL3_qQRFomlqLXuL2ukPe0pTNKoVt3fuMJ&index=6)
+* [Video - Asignación mediante conjuntos (Enteros)](https://www.youtube.com/watch?v=unQCciNBgAI&list=PL3_qQRFomlqLXuL2ukPe0pTNKoVt3fuMJ&index=7)
+* [Video - Arreglos Unidimensionales - Decimales](https://www.youtube.com/watch?v=H82CCIQUNbA&list=PL3_qQRFomlqLXuL2ukPe0pTNKoVt3fuMJ&index=8)
+
+
 ### Almacenamiento en memoria de los arreglos
 
 Los elementos de los arreglos se almacenan en bloques contiguos. Por ejemplo:
@@ -283,6 +288,9 @@ void main()
         scanf("%f", &muestra[i]);
 }
 ```
+
+* [Video - Arreglos Unidimensionales - Ejemplo promedio de calificaciones ](https://www.youtube.com/watch?v=40DqUexx-Qc&list=PL3_qQRFomlqLXuL2ukPe0pTNKoVt3fuMJ&index=11)
+* [Video - Arreglos Unidimensionales - Ejemplo número aleatorios](https://www.youtube.com/watch?v=RHmEDzzC4Nk&list=PL3_qQRFomlqLXuL2ukPe0pTNKoVt3fuMJ&index=12)
 
 ## Arreglos como paso de parámetros
 
