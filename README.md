@@ -122,19 +122,33 @@
 
 ## 6. Recursión
 
-* [Día 14]()
-* [17 .Iteraticas]()
-* [18 .Iteraticas]()
-* [19.Iteraticas]()
-* [20 .Iteraticas]()
+### [Día 14](./14_day_recursion/14_day_recursion.md)
+
+* Introducción
+* Tipos de recursividad
+
+### [Día 15](./15_day_recursion_ii/15_day_recursion_ii.md)
+
+* Iteración VS Recursividad
 
 ## 7. Ordenamiento y búsqueda
 
-* [21]()
-* [22]()
+### [Día 16](./16_day_sort/16_day_sort.md)
 
+* Ordenamiento
+  * Burbuja
+  * Quicksort
+  * Mergesort
+
+### [Día 17](./17_day_search/17_day_search.md)
+
+* Búsqueda
+  * Búsqueda secuencial
+  * Búsqueda binaria
 
 ## 8. Tipos de datos definidos por el programador
+
+### [Día 18](./18_day_tda_i/18d_day_tda_i.md)
 
 * [23]()
 * [24]()
