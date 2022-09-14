@@ -130,7 +130,7 @@ Ejemplo
 
 25, 7, 39, 17, 30, 52
 
-## Ordenamiento por mezcal (Merge sort)
+## Ordenamiento por mezcla (Merge sort)
 
 El método de ordenamiento por mezcla sigue el enfoque divide y veneras. El enfoque divide y vencerás es un buen enfoque en el cual se divide el arreglo en dos partes iguales, si el arreglo tienen n elementos cada sub arreglo será de tamaño n/2 elementos cada uno. Sin no hay elementos en el arreglo (o lista) o si el arreglo solo contiene un elemento, entonces ya esta ordenado. Sin embargo, si una arreglo tiene mas elementos, este es dividido en dos sub-arreglos que contengan la misma cantidad de elementos en ellos. Vencer, es el proceso de ordenar los dos sub-arreglos recursivamente usando el ordenamiento por mezcla. Finalmente, los dos sub-arreglos son mezclados en un solo arreglo ordenado.
 
