@@ -150,14 +150,9 @@
 
 ### [Día 18](./18_day_tda_i/18d_day_tda_i.md)
 
-* [23]()
-* [24]()
-* [25]()
-* [26]()
-* [27]()
-
 ## 9. Archivos
 
-* [28]()
-* [29]()
-* [30]()
+### [Día 19](./19_day_files/19_day_files.md)
+
+* Archivos texto
+* Archivos binario
