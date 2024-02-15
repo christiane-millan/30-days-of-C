@@ -20,9 +20,9 @@ Las **expresiones** son componentes de declaraciones complejas. Los operadores t
 - `5` es una expresión literal que evalúa el valor de `5`.
 - `5 + 8` es una expresión aritmética  de dos simples expresiones (constantes literales), los cuales, con el operador de adición, evalúa a `13`.
 - Una expresión más compleja, `5 + 8 - 10`, son en realidad dos operaciones aritméticas binarias donde `5` y `8` son evaluados primero para obtener un resultado intermedio, después el `10` es restado a este resultado intermedio.
-- 5; es una sentencia de expresión que evalúa a 5 y entonces se mueve a la siguiente sentencia. Una versión más util de esta sería `a_value = 5;` la cual es realmente dos expresiones: la evaluación del 5 y después la asignación del valor a la variable `a_value`.
+- `5`; es una sentencia de expresión que evalúa a `5` y entonces se mueve a la siguiente sentencia. Una versión más util de esta sería `a_value = 5;` la cual es realmente dos expresiones: la evaluación del `5` y después la asignación del valor a la variable `a_value`.
 
-Un programa simple calc_length.c que aplica cada método de utilizar expresiones simples y complejas, es la siguiente:
+Un programa simple `calc_length.c` que aplica cada método de utilizar expresiones simples y complejas, es la siguiente:
 
 ```c
 #include <stdio.h>
@@ -57,7 +57,7 @@ gcc calc_length.c -o calc_length
 
 ### Operador de asignación
 
-El operador de asignación =, asigna el valor de la expresión derecha a la variable situada a la izquierda.
+El operador de asignación `=`, asigna el valor de la expresión derecha a la variable situada a la izquierda.
 
 ```c
 code = 3467;
@@ -117,7 +117,7 @@ En el archivo de cabecera `stdio.h` están definidas macros, constantes, variabl
 
 ### Salida
 
-La salida de los datos de un programa se pueden dirigir a varios dispositivos: pantalla, impresora, archivos. La función printf()  visualiza en pantalla datos del programa, transforma los datos, que están en una representación binaria a ASCII según los códigos transmitidos.
+La salida de los datos de un programa se pueden dirigir a varios dispositivos: pantalla, impresora, archivos. La función `printf()`  visualiza en pantalla datos del programa, transforma los datos, que están en una representación binaria a ASCII según los códigos transmitidos.
 
 ```c
 suma = 0;
@@ -133,7 +133,7 @@ j = 12;
 c = 'A'; 
 n = 40.791512;
 
-printf("%d %d %c %f",i,j,c,n);
+printf("%d %d %c %f", i, j, c, n);
 ```
 
 La forma general que tiene `printf()` es :
@@ -142,14 +142,14 @@ La forma general que tiene `printf()` es :
 printf("control_string", data1, data2, data3, ... );
 ```
 
-`“control_string”` contiene los tipos de datos y la forma de mostrarlos; `data1`, `data2`, … son variables, constantes, datos de salida. printf() convierte, da forma de salida a los datos y los escribe en pantalla. La cadena de control contiene códigos de formato que se asocian a cada uno con los datos. Cada código comienza con el carácter %, a continuación puede especificarse el ancho mínimo del dato y termina con el carácter de conversión. Así, suponiendo que:
+`“control_string”` contiene los tipos de datos y la forma de mostrarlos; `data1`, `data2`, … son variables, constantes, datos de salida. `printf()` convierte, la forma de salida a los datos y los escribe en pantalla. La cadena de control contiene códigos de formato que se asocian a cada uno con los datos. Cada código comienza con el carácter `'%'`, a continuación puede especificarse el ancho mínimo del dato y termina con el carácter de conversión. Así, suponiendo que:
 
 ```c
 i = 11; 
 j = 12; 
 c = 'A'; 
 n = 40.791512;
-printf( "%x %3d %c %.3f",i,j,c,n);
+printf( "%x %3d %c %.3f", i, j, c, n);
 ```
 
 Visualizará en pantalla:
@@ -176,18 +176,18 @@ los códigos de formato más utilizados y su significado:
 
 | Código | Descripción |
 | --- | --- |
-| %d | El dato se convierte en entero decimal |
-| %o | El dato entero se convierte a octal |
-| %x | El dato entero se converte a hexadecimal |
-| %u | El dato entero se convierte a entero sin signo |
-| %c | El dato se considera de tipo carácter |
-| %e | El dato se considera de tipo float. Se convierte a notación científica, de la forma {-}n.mmmmmmE{-|+}dd. |
-| %f | El dato se considera del tipo float. Se convierte a notación decimal, con parte entera y los dígitos de precisión. |
-| %g | El dato se considera de tipo float. Se convierte según el código %e o %f dependiendo de cual sea la representación más corta |
-| %s | El dato ha de ser una cadena de caracteres |
-| %lf | El datos se considera de tipo double |
+| `%d` | El dato se convierte en entero decimal |
+| `%o` | El dato entero se convierte a octal |
+| `%x` | El dato entero se converte a hexadecimal |
+| `%u` | El dato entero se convierte a entero sin signo |
+| `%c` | El dato se considera de tipo carácter |
+| `%e` | El dato se considera de tipo float. Se convierte a notación científica, de la forma {-}n.mmmmmmE{-|+}dd. |
+| `%f` | El dato se considera del tipo float. Se convierte a notación decimal, con parte entera y los dígitos de precisión. |
+| `%g` | El dato se considera de tipo float. Se convierte según el código %e o %f dependiendo de cual sea la representación más corta |
+| `%s` | El dato ha de ser una cadena de caracteres |
+| `%lf` | El datos se considera de tipo double |
 
-C utiliza las secuencias de escape para visualizar caracteres que no están representados por símbolos tradicionales, como \a, \b, etc. Las secuencias de caracteres se muestran con anterioridad
+C utiliza las secuencias de escape para visualizar caracteres que no están representados por símbolos tradicionales, como `\a`, `\b`, etc. Las secuencias de caracteres se muestran con anterioridad
 
 ### Entrada
 

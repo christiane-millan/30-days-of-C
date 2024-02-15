@@ -133,18 +133,20 @@ Los elementos que definen la estructura de un programa en C, son:
 Las secuencias de escape son un tipo de puntuación en los programas que modifican el significado del símbolo que les precede.
 | Símbolo | Significado |
 | --- | --- |
-| \a | Alerta |
-| \b | Espacio |
-| \f | Form feed |
-| \n | Nueva línea |
-| \r | Retorno de carro |
-| \t | Tabulador horizontal |
-| \v | Tabular vertical |
-| \' | comilla simple |
-| \" | comilla doble |
-| \? | marca de pregunta |
-| \\ | diagonal invertida |
+| `\a` | Alerta |
+| `\b` | Espacio |
+| `\f` | Form feed |
+| `\n` | Nueva línea |
+| `\r` | Retorno de carro |
+| `\t` | Tabulador horizontal |
+| `\v` | Tabular vertical |
+|`\'` | comilla simple |
+|`\"` | comilla doble |
+|`\?` | marca de pregunta |
+|`\\` | diagonal invertida |
 
+
+Ejemplo del uso de las secuencias de escape
 ```c
 /*
 * Nombre del archivo: secuencias_escape.c
@@ -171,10 +173,10 @@ int main( void )  {
 
 En C existen cinco tipos de datos básicos e intrínsecos. Intrínsecos significa que estos tipos y todas las operaciones sobre ellos están construidas dentro del lenguaje.
 
-- **Números enteros:** Estos pueden representar solamente un rango positivo de valores o un rango que incluye tanto valores positivos y negativos.
-- **Números con fracciones o números decimales:** Estos son todos los números entre los números enteros, como con 1/2, 3/4, 0.79, 1.125 y 3.14159 (un valor aproximado para $\pi$ o incluso 3.1415926535897932384626433) o incluso un valor más preciso o más aproximado para $\pi$. Los números decimales pueden incluir valores negativos.
-- **Caracteres:** Estos son la base de las cadenas en C. Algunos lenguajes tienen un tienen un tipo separado para las cadenas. En c, las cadenas son casos especiales de arreglos de caracteres (no son un tipo de dato pero si un arreglo especial de valores de caracteres continuos).
-- **Valores Booleanos:** Estos pueden ser de cualquier tipo  dependiendo de la preferencia del compilador y del tamaño de número entero preferido de la máquina.
+- **Números enteros:** Estos pueden representar solamente un rango positivo de valores o un rango que incluye tanto valores positivos y negativos. Ejemplos: `4`, `2354`, `-2354` y `0`.
+- **Números con fracciones o números decimales:** Estos son todos los números entre los números enteros, como con `1/2`, `3/4`, `0.79`, `1.125` y `3.14159` (un valor aproximado para $\pi$ o incluso `3.1415926535897932384626433`) o incluso un valor más preciso o más aproximado para $\pi$. Los números decimales pueden incluir valores negativos `-2.3`.
+- **Caracteres:** Estos son la base de las cadenas en C. Algunos lenguajes tienen un tienen un tipo separado para las cadenas. En c, las cadenas son casos especiales de arreglos de caracteres (no son un tipo de dato pero si un arreglo especial de valores de caracteres continuos). Ejemplos: `'a'`, `'_'`, `'4'`.
+- **Valores Booleanos:** Estos pueden ser de cualquier tipo  dependiendo de la preferencia del compilador y del tamaño de número entero preferido de la máquina. Es comun que Falso y Verdadero se representen por `0` y `1` (respectivamente).
 - **Direcciones:** Estas son las localizaciones de bytes en una memoria de computadora. C provee de valores de dirección directa en memoria. Muchos lenguajes no permiten el direccionamiento directo
 
 ```c
@@ -376,7 +378,7 @@ int a_different_counter = my_counter;
 
 En algún momento se requieren variables que no cambien su valor durante el tiempo de vida. Estas son las constantes y pueden ser definidas de distintas formas para diferentes usos.
 
-- Constantes literales
+### Constantes literales
   
   Considerar las siguientes secuencias de caracteres como literales:
 
@@ -399,7 +401,7 @@ Cada una de estas secuencias (excepto la cadena) tiene una representación inter
 
  Estos valores son literalmente escritos en el código fuente y sus tipos son determinados por la forma en la cual son escritos, o precisamente por cómo su puntuación especifica el contexto del tipo de dato.
 
-- Constantes definidas por valores
+### Constantes definidas por valores
 
 ```c
 #define INCHES_PER_FOOT 12
@@ -409,7 +411,7 @@ feet = inches / INCHES_PER_FOOT;
 yards = feet / FEET_PER_YARD;
 ```
 
-- Constantes de tipo explícito
+### Constantes de tipo explícito
 
 ```c
 const float k_inches_per_foot = 12.0;
